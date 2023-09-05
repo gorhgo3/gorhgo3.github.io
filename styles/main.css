@@ -1,3 +1,13 @@
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: Lexend;
+  font-weight: 500;
+}
+
 section {
   margin: 10rem 0px;
 }
