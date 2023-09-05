@@ -1,3 +1,7 @@
+section {
+  margin: 10rem 0px;
+}
+
 .header-image img {
   height: 20rem;
   width: 20rem;
@@ -15,6 +19,7 @@
 }
 .header-image {
 }
+
 
 @media (max-width: 600px) {
   .header {
