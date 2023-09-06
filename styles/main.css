@@ -152,10 +152,11 @@ section {
 }
 
 .blog-entry {
+  color: white;
   flex: 1;
   padding: 1rem;
   max-width: 600px;
-  background-color: rgba(0, 255, 0, 0.132);
+  background-color: rgba(82, 39, 0, 0.71);
   border-radius: 7px;
   margin-inline: 10px;
 }
