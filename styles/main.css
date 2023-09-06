@@ -28,21 +28,6 @@ section {
   display: inline-flex;
 }
 
-/* text colors */
-
-.text-red {
-  color: var(--redColor);
-  font-weight: 500;
-}
-
-.text-dark {
-  color: var(--textdark);
-}
-
-.text-mdark {
-  color: var(--midGrey);
-}
-
 .mm3 {
   margin: 3rem 3rem;
 }
@@ -69,7 +54,21 @@ section {
   background-color: var(--softGrey);
 }
 
-/* HeaderHeaderHeaderHeaderHeaderHeaderHeaderHeader  */
+/* TEXT COLORS */
+
+.text-red {
+  color: var(--redColor);
+}
+
+.text-dark {
+  color: var(--textdark);
+}
+
+.text-mdark {
+  color: var(--midGrey);
+}
+/* TEXT COLORS */
+/* HEADER  */
 
 .header {
   display: flex;
@@ -98,21 +97,13 @@ section {
   text-decoration: none;
 }
 
-.nav-button {
-  /* color: rgb(255, 67, 67); */
-  /* font-weight: 600; */
-  /* margin-inline: 1rem; */
-  /* padding: 10px; */
-  /* border-radius: 7px; */
-}
-
 .nav-button:hover {
   color: white;
   background-color: rgba(255, 135, 135, 0.547);
   transition-duration: 500ms;
 }
-
-/* blogblogblogblogblogblogblogblogblogblogblogblogblogblogblogblog */
+/* HEADER  */
+/* BLOG */
 
 .blogs {
 }
@@ -141,7 +132,16 @@ section {
 .blogs-section--content h3 {
   color: rgb(41, 41, 41);
 }
+/* BLOG */
+/* SKILLS */
 
+.skills {
+}
+
+.bg-trans {
+  /* background-color: rgba(255, 255, 255, 0); */
+}
+/* SKILLS */
 @media (max-width: 750px) {
   body {
     text-align: justify;
@@ -181,13 +181,4 @@ section {
   .fl {
     margin: 0px;
   }
-}
-
-/* skillskillskillskillskillskillskillskillskillskillskillskillskillskillskill */
-
-.skills {
-}
-
-.bg-trans {
-  /* background-color: rgba(255, 255, 255, 0); */
 }
