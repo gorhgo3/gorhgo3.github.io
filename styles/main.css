@@ -219,12 +219,10 @@ section {
 }
 
 @media (max-width: 750px) {
-  body {
-    text-align: justify;
-  }
+
   .header {
     position: relative;
-    text-align: center;
+    text-align: justify;
     flex-direction: column;
     margin: 1rem 1rem;
     padding-bottom: 7rem;
