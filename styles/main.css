@@ -168,6 +168,20 @@ section {
 /* SKILLS */
 
 .skills {
+  margin: 5rem 2rem;
+  background-color: var(--transparent);
+  /* height: 30rem; */
+}
+.skills img {
+  height: 180px;
+  width: 180px;
+}
+
+.skills-section--content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: fit-content;
 }
 
 .bg-trans {
@@ -228,6 +242,11 @@ section {
   .navbar p {
     color: var(--redColor);
   }
+  .skills img {
+    height: 120px;
+    width: 120px;
+  }
+  
 }
 
 @media (max-width: 400px) {
