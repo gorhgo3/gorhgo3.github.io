@@ -12,6 +12,7 @@ body {
   font-family: sans-serif;
   font-weight: 400;
   margin: 0px;
+  align-items: center;
 }
 
 h1,
@@ -53,6 +54,7 @@ hr {
 .header,
 section {
   background-color: var(--softGrey);
+  margin: 1rem auto;
 }
 
 /* TEXT COLORS */
@@ -74,12 +76,14 @@ section {
 .header {
   display: flex;
   min-width: 360px;
+  max-width: 1200px;
 }
 
 .header-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-right: 2rem
 }
 
 .summary {
@@ -94,9 +98,7 @@ section {
 }
 
 .navbar {
-  display: flex;
   padding: 10px;
-  justify-content: space-evenly;
   font-family: monospace;
 }
 
@@ -189,7 +191,12 @@ section {
   }
 
   .navbar {
-    position: absolute;
+      /* display: flex; */
+
+      
+      position: absolute;
+      display: flex;
+      justify-content: space-evenly;
     width: 100vw;
     bottom: 0;
   }
