@@ -37,8 +37,9 @@ section {
 }
 
 hr {
-  margin: 100px 0px;
+  margin: 100px auto;
   padding-inline: 40px;
+  width: 60%;
 }
 
 /* .bg {
