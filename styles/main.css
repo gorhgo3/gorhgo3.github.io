@@ -7,7 +7,6 @@
   --redColor: red;
   --transparent: rgba(255, 255, 255, 0);
 }
-
 body {
   font-family: sans-serif;
   font-weight: 400;
@@ -15,32 +14,26 @@ body {
   text-align: center;
   background-color: var(--softGrey);
 }
-
 h1,
 h2,
 h3 {
   font-family: Lexend;
   font-weight: 500;
 }
-
 h2 {
   font-size: 38px;
 }
-
 section {
   margin: 3rem 0px;
 }
-
 .fl {
   display: inline-flex;
 }
-
 .mm3 {
   margin: 3rem 3rem;
 }
-
 hr {
-  margin: 100px auto;
+  margin: 10px auto 100px auto;
   padding-inline: 40px;
   width: 60%;
 }
@@ -71,7 +64,6 @@ section {
   margin: 1rem auto;
   max-width: 1200px;
 }
-
 /* TEXT COLORS */
 
 .text-red {
@@ -85,7 +77,6 @@ section {
 .text-mdark {
   color: var(--midGrey);
 }
-/* TEXT COLORS */
 /* HEADER  */
 
 .header {
@@ -100,6 +91,13 @@ section {
   flex-direction: column;
   justify-content: space-between;
   margin-right: 2rem;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
 }
 
 .intro {
@@ -143,7 +141,6 @@ section {
   transition-duration: 500ms;
   transform: scale(1.1);
 }
-/* HEADER  */
 /* BLOG */
 
 .blogs {
@@ -181,11 +178,11 @@ section {
 .blogs-section--content h3 {
   color: rgb(41, 41, 41);
 }
-/* BLOG */
 /* SKILLS */
 
 .skills {
   margin: 5rem auto;
+  background-color: var(--transparent);
 }
 .skills img {
   height: 180px;
@@ -202,8 +199,6 @@ section {
 .bg-trans {
 }
 /* SKILLS */
-/* CONTACT */
-
 .contact-point {
   padding: 20px;
   text-decoration: none;
@@ -231,7 +226,6 @@ section {
   .header-content {
     margin: 2rem 0rem;
   }
-
   .blogs-section--header {
     margin-bottom: 5rem;
     text-align: center;
@@ -244,7 +238,6 @@ section {
   .blogs-section--content h3 {
     color: rgb(41, 41, 41);
   }
-
   .navbar {
     /* display: flex; */
 
