@@ -1,3 +1,12 @@
+:root {
+  --softGrey: rgb(247, 247, 247);
+  --midGrey: rgb(186, 186, 186);
+  --textdark: rgb(65, 65, 65);
+  --textblack: rgb(26, 26, 26);
+  --textwhite: rgb(249, 249, 249);
+  --redColor: red;
+}
+
 body {
   font-family: sans-serif;
   font-weight: 400;
@@ -19,8 +28,19 @@ section {
   display: inline-flex;
 }
 
-.red {
-  color: rgb(255, 0, 0);
+/* text colors */
+
+.text-red {
+  color: var(--redColor);
+  font-weight: 500;
+}
+
+.text-dark {
+  color: var(--textdark);
+}
+
+.text-mdark {
+  color: var(--midGrey);
 }
 
 .mm3 {
@@ -31,6 +51,24 @@ hr {
   margin: 100px 0px;
   padding-inline: 40px;
 }
+
+.bg {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.header,
+section {
+  background-color: var(--softGrey);
+}
+
 /* HeaderHeaderHeaderHeaderHeaderHeaderHeaderHeader  */
 
 .header {
@@ -45,15 +83,10 @@ hr {
 }
 
 .summary {
-  color: rgb(199, 199, 199);
   font-weight: 200;
 }
 
-.summary .intro-title {
-  color: rgb(65, 65, 65);
-}
-
-.header-image img {
+#murrays-img {
   height: 20rem;
   width: 20rem;
   border-radius: 50%;
@@ -61,12 +94,16 @@ hr {
 }
 
 .nav-button {
-  color: rgb(255, 57, 57);
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  font-weight: 600;
-  margin-inline: 1rem;
-  padding: 10px;
-  border-radius: 7px;
+}
+
+.nav-button {
+  /* color: rgb(255, 67, 67); */
+  /* font-weight: 600; */
+  /* margin-inline: 1rem; */
+  /* padding: 10px; */
+  /* border-radius: 7px; */
 }
 
 .nav-button:hover {
@@ -129,7 +166,7 @@ hr {
   }
   .blogs-section--content h3 {
     color: rgb(41, 41, 41);
-  }  
+  }
 }
 
 @media (max-width: 400px) {
@@ -144,4 +181,13 @@ hr {
   .fl {
     margin: 0px;
   }
+}
+
+/* skillskillskillskillskillskillskillskillskillskillskillskillskillskillskill */
+
+.skills {
+}
+
+.bg-trans {
+  /* background-color: rgba(255, 255, 255, 0); */
 }
