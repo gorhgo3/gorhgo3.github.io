@@ -151,6 +151,12 @@ section {
   text-align: center;
 }
 
+.blogs-section--header a {
+  padding: 10px;
+}
+
+
+
 .blogs-section--content {
   display: flex;
   justify-content: space-evenly;
