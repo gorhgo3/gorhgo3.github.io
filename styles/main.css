@@ -89,6 +89,7 @@ section {
   text-align: start;
   display: flex;
   min-width: 360px;
+  padding: 20px;
 }
 
 .header-content {
