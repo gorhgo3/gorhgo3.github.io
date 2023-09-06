@@ -174,7 +174,6 @@ section {
 
 .blog-entry:hover {
   transform: scale(1.04);
-  box-shadow: inset;
   cursor: pointer;
   transition-duration: 500ms;
   opacity: 0.8;
