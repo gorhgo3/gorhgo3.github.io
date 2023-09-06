@@ -6,7 +6,6 @@
   --textwhite: rgb(249, 249, 249);
   --redColor: red;
   --transparent: rgba(255, 255, 255, 0);
-
 }
 
 body {
@@ -100,7 +99,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 2rem
+  margin-right: 2rem;
 }
 
 .intro {
@@ -136,6 +135,7 @@ section {
 
 .nav-button p {
   margin-bottom: 0px;
+  font-size: 1.5rem;
 }
 
 .nav-button:hover {
@@ -205,9 +205,6 @@ section {
 /* SKILLS */
 /* CONTACT */
 
-.contact {
-}
-
 .contact-point {
   padding: 20px;
   text-decoration: none;
@@ -215,6 +212,12 @@ section {
 }
 
 /* CONTACT */
+@media (max-width: 830px) {
+  .nav-button {
+    margin-inline: 0px;
+  }
+}
+
 @media (max-width: 750px) {
   body {
     text-align: justify;
@@ -244,12 +247,11 @@ section {
   }
 
   .navbar {
-      /* display: flex; */
+    /* display: flex; */
 
-      
-      position: absolute;
-      display: flex;
-      justify-content: space-evenly;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
     width: 100vw;
     bottom: 0;
   }
@@ -260,7 +262,6 @@ section {
     height: 120px;
     width: 120px;
   }
-  
 }
 
 @media (max-width: 400px) {
