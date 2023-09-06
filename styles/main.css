@@ -172,6 +172,14 @@ section {
   margin-inline: 10px;
 }
 
+.blog-entry:hover {
+  transform: scale(1.04);
+  box-shadow: inset;
+  cursor: pointer;
+  transition-duration: 500ms;
+  opacity: 0.8;
+}
+
 .blogs-section--content h3 {
   color: rgb(41, 41, 41);
 }
