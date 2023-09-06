@@ -10,11 +10,9 @@
 }
 
 body {
-  position: relative;
   font-family: sans-serif;
   font-weight: 400;
   margin: 0px;
-  align-items: center;
   text-align: center;
   background-color: var(--softGrey);
 }
@@ -67,6 +65,7 @@ li {
 .header,
 section {
   margin: 1rem auto;
+  max-width: 1200px;
 }
 
 /* TEXT COLORS */
@@ -89,7 +88,6 @@ section {
   text-align: start;
   display: flex;
   min-width: 360px;
-  max-width: 1200px;
 }
 
 .header-content {
@@ -169,7 +167,7 @@ section {
 /* SKILLS */
 
 .skills {
-  margin: 5rem 2rem;
+  margin: 5rem auto;
 }
 .skills img {
   height: 180px;
