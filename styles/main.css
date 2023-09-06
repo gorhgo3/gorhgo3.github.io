@@ -5,6 +5,7 @@
   --textblack: rgb(26, 26, 26);
   --textwhite: rgb(249, 249, 249);
   --redColor: red;
+
 }
 
 body {
@@ -92,15 +93,32 @@ section {
   overflow: hidden;
 }
 
+.navbar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  font-family: monospace;
+}
+
 .nav-button {
-  color: rgb(0, 0, 0);
+  color: var(--textdark);
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  margin-inline: 20px;
+  text-align: center;
+  border-radius: 7px;
   text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-button p {
+  margin-bottom: 0px;
 }
 
 .nav-button:hover {
   color: white;
   background-color: rgba(255, 135, 135, 0.547);
   transition-duration: 500ms;
+  transform: scale(1.1);
 }
 /* HEADER  */
 /* BLOG */
@@ -147,9 +165,11 @@ section {
     text-align: justify;
   }
   .header {
+    position: relative;
     text-align: center;
     flex-direction: column;
     margin: 1rem 1rem;
+    padding-bottom: 7rem;
   }
   .header-content {
     margin: 2rem 0rem;
@@ -166,6 +186,15 @@ section {
   }
   .blogs-section--content h3 {
     color: rgb(41, 41, 41);
+  }
+
+  .navbar {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+  }
+  .navbar p {
+    color: var(--redColor);
   }
 }
 
