@@ -1,16 +1,18 @@
 body {
   font-family: sans-serif;
   font-weight: 400;
+  margin: 0px;
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: Lexend;
   font-weight: 500;
 }
 
 section {
-  margin: 10rem 0px;
+  margin: 3rem 0px;
 }
 
 .fl {
@@ -25,6 +27,10 @@ section {
   margin: 3rem 3rem;
 }
 
+hr {
+  margin: 100px 0px;
+  padding-inline: 40px;
+}
 /* HeaderHeaderHeaderHeaderHeaderHeaderHeaderHeader  */
 
 .header {
@@ -47,12 +53,6 @@ section {
   color: rgb(65, 65, 65);
 }
 
-.header-content .intro {
-}
-
-.header-content .navbar {
-}
-
 .header-image img {
   height: 20rem;
   width: 20rem;
@@ -61,7 +61,7 @@ section {
 }
 
 .nav-button {
-  color: rgb(255, 142, 142);
+  color: rgb(255, 57, 57);
   text-decoration: none;
   font-weight: 600;
   margin-inline: 1rem;
@@ -71,11 +71,44 @@ section {
 
 .nav-button:hover {
   color: white;
-  background-color: rgba(255, 0, 0, 0.325);
+  background-color: rgba(255, 135, 135, 0.547);
   transition-duration: 500ms;
 }
 
+/* blogblogblogblogblogblogblogblogblogblogblogblogblogblogblogblog */
+
+.blogs {
+}
+
+.blogs-section--header {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.blogs-section--content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  color: grey;
+}
+
+.blog-entry {
+  flex: 1;
+  padding: 1rem;
+  max-width: 600px;
+  background-color: rgba(0, 255, 0, 0.132);
+  border-radius: 7px;
+  margin-inline: 10px;
+}
+
+.blogs-section--content h3 {
+  color: rgb(41, 41, 41);
+}
+
 @media (max-width: 750px) {
+  body {
+    text-align: justify;
+  }
   .header {
     text-align: center;
     flex-direction: column;
@@ -84,7 +117,21 @@ section {
   .header-content {
     margin: 2rem 0rem;
   }
+
+  .blogs-section--header {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+  .blogs-section--content {
+    padding: 0.5rem;
+    color: grey;
+    flex-direction: column;
+  }
+  .blogs-section--content h3 {
+    color: rgb(41, 41, 41);
+  }  
 }
+
 @media (max-width: 400px) {
   .header {
     text-align: center;
