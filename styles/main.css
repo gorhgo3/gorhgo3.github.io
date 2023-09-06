@@ -3,7 +3,8 @@ body {
   font-weight: 400;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Lexend;
   font-weight: 500;
 }
@@ -12,34 +13,88 @@ section {
   margin: 10rem 0px;
 }
 
-.header-image img {
-  height: 20rem;
-  width: 20rem;
+.fl {
+  display: inline-flex;
 }
+
+.red {
+  color: rgb(255, 0, 0);
+}
+
+.mm3 {
+  margin: 3rem 3rem;
+}
+
+/* HeaderHeaderHeaderHeaderHeaderHeaderHeaderHeader  */
 
 .header {
   display: flex;
+  min-width: 360px;
 }
+
 .header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.summary {
+  color: rgb(199, 199, 199);
+  font-weight: 200;
+}
+
+.summary .intro-title {
+  color: rgb(65, 65, 65);
 }
 
 .header-content .intro {
 }
+
 .header-content .navbar {
 }
-.header-image {
+
+.header-image img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
+.nav-button {
+  color: rgb(255, 142, 142);
+  text-decoration: none;
+  font-weight: 600;
+  margin-inline: 1rem;
+  padding: 10px;
+  border-radius: 7px;
+}
 
-@media (max-width: 600px) {
+.nav-button:hover {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.325);
+  transition-duration: 500ms;
+}
+
+@media (max-width: 750px) {
   .header {
+    text-align: center;
     flex-direction: column;
+    margin: 1rem 1rem;
   }
   .header-content {
+    margin: 2rem 0rem;
   }
-
-  .header-content .intro {
+}
+@media (max-width: 400px) {
+  .header {
+    text-align: center;
+    flex-direction: column;
+    margin: 1rem 1rem;
   }
-  .header-content .navbar {
+  .header-content {
+    margin: 2rem 0rem;
+  }
+  .fl {
+    margin: 0px;
   }
 }
