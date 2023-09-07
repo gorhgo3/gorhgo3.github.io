@@ -1,23 +1,55 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f5fe937692.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="/styles/main.css" />
     <title>My blog</title>
   </head>
   <body>
-    <div class="header">
-      <div class="header-intro">
-        <h1>Hi my name is murray</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-          architecto debitis deleniti maiores eligendi quasi nemo quisquam
-          mollitia perspiciatis dolores!
-        </p>
+    <header class="header">
+      <div class="header-content">
+        <div>
+            <h1 class="intro">
+              <div class="text-red di">Hi.</div>
+              My name is Murray
+            </h1>
+          <div class="text-mdark summary">
+            <h2>
+              <div class="text-dark fl">From Wiring to Web:</div>
+              A Shocking Transition - The Journey of an Electrician to a Web
+              Developer
+            </h2>
+          </div>
+        </div>
         <div class="navbar">
-          <a href="#blog">blog</a>
-          <a href="#about">about</a>
-          <a href="#contact">contact</a>
-          <a href="#footer">footer</a>
+          <div class="fl">
+            <a href="#blog" class="nav-button">
+              <i class="text-red fa-solid fa-bookmark fa-xl"></i>
+              <p>blog</p>
+            </a>
+          </div>
+          <div class="fl">
+          <a href="#skill" class="nav-button">
+            <i class="text-red fa-solid fa-folder fa-xl"></i>
+            <p>skills</p>
+          </a>
+        </div>
+          <div class="fl">
+          <a href="#contact" class="nav-button">
+            <i class="text-red fa-solid fa-user fa-xl"></i>
+            <p>contact</p>
+          </a>
+        </div>
         </div>
       </div>
       <div class="header-image">
@@ -27,72 +59,74 @@
           alt=""
         />
       </div>
-    </div>
-    <section class="section-1">
-      <div class="s-head"></div>
-      <div class="s-content"></div>
-    </section>
-    <section class="section-2">
-      <div class="s-head"></div>
-      <div class="s-content"></div>
-    </section>
-    <section class="section-3">
-      <div class="s-head"></div>
-      <div class="s-content"></div>
-    </section>
-    <section class="section-4">
-      <div class="s-head"></div>
-      <div class="s-content"></div>
-    </section>
-    <section class="section-5">
-      <div class="s-head"></div>
-      <div class="s-content"></div>
-    </section>
-    <footer></footer>
-
-    <!-- <div id="blog" class="section">
-      <article>
-        <h2>want to find out more about Murray?</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          nobis tenetur perferendis asperiores suscipit explicabo! Quam ad nisi
-          perferendis incidunt repellendus modi fugiat nobis sequi molestias
-          libero quod molestiae repellat dolorem, reprehenderit laborum dolor,
-          ab eius dolores rerum et fugit soluta? Asperiores eligendi
-          perspiciatis delectus tenetur necessitatibus ea quos sit.
-        </p>
-      </article>
-    </div>
-
-    <div id="about" class="section">
-      <article>
-        <h2>Where is Murray?</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A quaerat
-          pariatur delectus illum impedit nulla aliquam asperiores velit aliquid
-          tempore consequuntur aut earum natus, nesciunt quis possimus qui
-          veniam ipsum corporis. Eveniet tenetur nulla est earum rem totam eos,
-          quae quidem nesciunt culpa consectetur architecto, modi suscipit
-          blanditiis at magni.
-        </p>
-      </article>
-    </div>
-
-    <div id="contact" class="contact">
-      <article>
-        <h2>contact me now!</h2>
-        <p>social media</p>
-        <div class="socials">
-          <i>media</i>
-          <i>media</i>
-          <i>media</i>
-          <i>media</i>
+      </div>
+    </header>
+    <hr/>
+    <section id="blog" class="blogs">
+      <div class="blogs-section--header">
+        <h2>want to hear more?</h2>
+        <a href="#">Visit allMurrays storys</a>
+      </div>
+      <div class="blogs-section--content">
+        <div class="blog-entry">
+          <a class="blog-link" href="/blog/html-css.html"></a>
+          <h3>
+            Preview: Principles of block, inline, and inline-block
+          </h3>
+          <p>
+            want to learn more about the principles that belong to different display settings of CSS?
+          </p>
         </div>
-      </article>
-    </div>
-
-    <div id="footer">
-      <footer>copyright stuff Lorem ipsum dolor sit amet.</footer>
-    </div> -->
+        <div class="blog-entry">
+            <a class="blog-link" href="/blog/te-houtaewa-template.html"></a>
+            <h3>The Story of Te Houtaewa</h3>
+            <p>
+              E kore e mau i a koe, he wae kai pakiaka. A foot accustomed to running
+              over roots makes the speediest runner.
+            </p>
+          </div>
+        
+    </section>
+    <hr/>
+    <section id="skill" class="skills">
+      <div class="skills-section--header"></div>
+      <div class="skills-section--content">
+        <img width="240" height="240" src="https://img.icons8.com/color/240/javascript--v1.png" alt="javascript--v1"/>
+        <img width="240" height="240" src="https://img.icons8.com/color/240/python--v1.png" alt="python--v1"/>
+        <img width="240" height="240" src="https://img.icons8.com/color/240/react-native.png" alt="react-native"/>
+        <img width="240" height="240" src="https://img.icons8.com/color/240/html-5--v1.png" alt="html-5--v1"/>
+        <img width="240" height="240" src="https://img.icons8.com/color/240/css3.png" alt="css3"/>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="contact-section--header">
+        <h1>Want to reach out?</h1>
+      </div>
+      <div class="contact-section--content">
+        <h3>contact me below!</h3>
+        <!-- make this span x axis -->
+        <ul>
+          <li>
+            <a class="contact-point fa-brands fa-facebook fa-2xl" href="https://www.facebook.com/"></a>
+          </li>
+          <li>
+            <a class="contact-point fa-brands fa-x-twitter fa-2xl" href="https://twitter.com/?lang=en"></a>
+          </li>
+          <li>
+            <a class="contact-point fa-brands fa-instagram fa-2xl" href="https://www.instagram.com/"></a>
+          </li>
+          <li>
+            <a class="contact-point fa-brands fa-github fa-2xl" href="https://github.com/gorhgo3"></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="bg"></div>
+    <footer id="footer">
+      <span class="fl">
+        <p>copyright stuff</p>
+        <p>skills icons by <a href="https://icons8.com/">icons8</a></p>
+      </span>
+    </footer>
   </body>
 </html>
