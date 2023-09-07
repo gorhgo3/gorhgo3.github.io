@@ -8,6 +8,7 @@
   --transparent: rgba(255, 255, 255, 0);
 }
 body {
+  min-height: 100vh;
   font-family: sans-serif;
   font-weight: 400;
   margin: 0px;
