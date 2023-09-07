@@ -147,6 +147,12 @@ section {
   transition-duration: 500ms;
 }
 
+
+.sprints {
+  display: inline-block;
+}
+
+/* navbuttons */
 #nav {
   display: inline-block;
 }
@@ -163,9 +169,10 @@ section {
   font-weight: 600; */
 }
 
-.sprints {
-  display: inline-block;
-}
+
+
+
+
 /* BLOG */
 
 .blog-content {
