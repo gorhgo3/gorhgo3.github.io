@@ -28,9 +28,9 @@ section {
   background-color: var(--softGrey);
 }
 
-.di {
+/* .di {
   display: inline;
-}
+} */
 .fl {
   display: inline-flex;
 }
@@ -73,6 +73,7 @@ section {
 
 .text-red {
   color: var(--redColor);
+  display: inline;
 }
 
 .text-dark {
@@ -155,23 +156,14 @@ section {
 .blogs {
 }
 
-.blogs-section--header {
-  margin-bottom: 5rem;
-  text-align: center;
-}
-
-.blogs-section--header a {
-  padding: 10px;
-}
-
-.blogs-section--content {
+.blog-content {
   display: flex;
   justify-content: space-evenly;
   padding: 0.5rem;
   color: grey;
 }
 
-.blog-entry {
+.blog-preview {
   position: relative;
   color: white;
   flex: 1;
@@ -182,20 +174,20 @@ section {
   margin: 3px 10px;
 }
 
-.blog-entry:hover {
+.blog-preview:hover {
   transform: scale(1.04);
   cursor: pointer;
   transition-duration: 500ms;
   opacity: 0.8;
 }
-.blog-link {
+.preview-link {
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
 }
-.blogs-section--content h3 {
+.blog-content h3 {
   color: rgb(41, 41, 41);
 }
 /* SKILLS */
@@ -243,16 +235,13 @@ section {
   .header-content {
     margin: 2rem 0rem;
   }
-  .blogs-section--header {
-    margin-bottom: 5rem;
-    text-align: center;
-  }
-  .blogs-section--content {
+
+  .blog-content {
     padding: 0.5rem;
     color: grey;
     flex-direction: column;
   }
-  .blogs-section--content h3 {
+  .blog-content h3 {
     color: rgb(41, 41, 41);
   }
   .navbar {
