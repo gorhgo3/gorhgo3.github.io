@@ -64,6 +64,15 @@ li {
   display: inline-block;
 }
 
+#personal-statement {
+  color: var(--textdark);
+  /* text-align: start; */
+  margin: 150px auto;
+  max-width: 800px;
+  text-align: justify;
+  padding: 20px;
+}
+
 header,
 section {
   margin: 1rem auto;
