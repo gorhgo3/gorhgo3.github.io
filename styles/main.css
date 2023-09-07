@@ -21,27 +21,23 @@ h3 {
   font-family: Lexend;
   font-weight: 500;
 }
+
 h2 {
   font-size: 38px;
 }
+
 section {
   margin: 3rem 0px;
   background-color: var(--softGrey);
 }
 
-/* .di {
-  display: inline;
-} */
 .fl {
   display: inline-flex;
 }
-.mm3 {
-  margin: 3rem 3rem;
-}
+
 hr {
-  margin: 10px auto 100px auto;
-  padding-inline: 40px;
-  width: 60%;
+  margin: 10px auto;
+  width: 80%;
 }
 
 .bg {
@@ -111,15 +107,15 @@ section {
   font-size: 55px;
   margin-bottom: 0px;
 }
-.summary {
-  font-weight: 200;
-}
 
 #murrays-img {
   height: 20rem;
   width: 20rem;
   border-radius: 50%;
   overflow: hidden;
+}
+#blog {
+  margin: 100px auto;
 }
 
 .action {
@@ -211,7 +207,7 @@ section {
   width: 180px;
 }
 
-.skills-section--content {
+.skill-content {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
