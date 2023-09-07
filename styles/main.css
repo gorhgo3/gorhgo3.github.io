@@ -160,8 +160,6 @@ section {
   padding: 10px;
 }
 
-
-
 .blogs-section--content {
   display: flex;
   justify-content: space-evenly;
@@ -231,7 +229,6 @@ section {
 }
 
 @media (max-width: 750px) {
-
   .header {
     position: relative;
     text-align: justify;
