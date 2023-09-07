@@ -165,6 +165,7 @@ section {
 }
 
 .blog-entry {
+  position: relative;
   color: white;
   flex: 1;
   padding: 1rem;
@@ -180,7 +181,13 @@ section {
   transition-duration: 500ms;
   opacity: 0.8;
 }
-
+.blog-link {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 .blogs-section--content h3 {
   color: rgb(41, 41, 41);
 }
