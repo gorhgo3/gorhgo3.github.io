@@ -121,6 +121,18 @@ section {
   overflow: hidden;
 }
 
+.action {
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 1rem;
+  font-size: 30px;
+}
+.action:hover {
+  color: white;
+  transform: scale(1.05);
+  background-color: rgba(255, 0, 0, 0.495);
+  transition-duration: 500ms;
+}
 .navbar {
   /* background-image: linear-gradient(180deg, rgb(36, 36, 36), rgba(0, 0, 0, 0.603)); */
   position: sticky;
@@ -152,9 +164,6 @@ section {
   transform: scale(1.1);
 }
 /* BLOG */
-
-.blogs {
-}
 
 .blog-content {
   display: flex;
