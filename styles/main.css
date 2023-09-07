@@ -5,6 +5,7 @@
   --textblack: rgb(26, 26, 26);
   --textwhite: rgb(249, 249, 249);
   --redColor: red;
+  --lightRedColor: rgba(255, 0, 0, 0.495);
   --transparent: rgba(255, 255, 255, 0);
 }
 body {
@@ -130,7 +131,7 @@ section {
 .action:hover {
   color: white;
   transform: scale(1.05);
-  background-color: rgba(255, 0, 0, 0.495);
+  background-color: var(--lightRedColor);
   transition-duration: 500ms;
 }
 .navbar {
