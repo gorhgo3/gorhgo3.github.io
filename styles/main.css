@@ -140,9 +140,10 @@ section {
   border-radius: 1rem;
   font-size: 30px;
 }
+
 .action:hover {
   color: white;
-  transform: scale(2);
+  transform: scale(1.2);
   background-color: var(--lightRedColor);
   transition-duration: 500ms;
 }
@@ -231,6 +232,7 @@ section {
   padding: 20px;
   text-decoration: none;
   color: var(--textblack);
+  background-color: var(--transparent);
 }
 
 /* CONTACT */
