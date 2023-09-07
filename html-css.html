@@ -8,16 +8,67 @@
     <link rel="stylesheet" href="" />
   </head>
   <body>
-    <h2>What is a grid layout?</h2>
-    <p></p>
-    <h2>What benefits does grid layout? have over over display methods?</h2>
-    <p></p>
-    <h2>Characteristics of grid layout?</h2>
-    <p></p>
-    <h2>Why should you use it</h2>
-    <p></p>
-    <h2>when shouldn't you use it</h2>
-    <p></p>
+    <div class="">
+      <h1>BLOCK DISPLAY</h1>
+      <p>
+        block elements by default take up 100% width of the parent container! <br> an important characteristic of the block elements is that they <strong>force</strong> a new line after the container/element <br> this makes them appear <strong>stacked on top of each other</strong>. h1 elements by default have the block characteristic. 
+        <h3>here is an example of h1 tags with natural block charcteristics</h3>
+        <h1 style="background-color: green">hello</h1>
+        <h1 style="background-color: red">hello</h1>
+        <h1 style="background-color: yellow">hello</h1>
+        <div style="width: 50%; background-color: rgba(255, 0, 225, 0.27);">parent container width set to 50% <strong>note*</strong> the h1 elements still take up 100% of the parent container
+          <h1 style="background-color: green">hello</h1>
+          <h1 style="background-color: red">hello</h1>
+          <h1 style="background-color: yellow">hello</h1>
+        </div>
+        <h1 style="width:50%; background-color: rgba(255, 0, 225, 0.27)">this is an h1 tag with 50% width- <br>notice a new line is forced though there is space after previous container?</h1>
+      </p>
+    </div>
+    <hr>
+    <div style="margin-bottom: 100px;" class="">
+      <h1>INLINE DISPLAY</h1>
+      <p>inline display keeps the width contained to the generated width of the element. inline display will not reference any predetermined width values.</p>
+      <p>using the same blueprint as above <strong>but with inline classes added to the tags</strong></p>
+      <h1 style="display: inline; background-color: green">hello</h1>
+      <h1 style="display: inline; background-color: red">hello</h1>
+      <h1 style="display: inline; background-color: yellow">hello</h1>
+      <div style="width: 50%; background-color: rgba(255, 0, 225, 0.27);">parent container width set to 50% <strong>note*</strong> the h1 elements no longer take up 100% of the parent container
+        <br>
+        <h1 style="display: inline; background-color: green">hello</h1>
+        <h1 style="display: inline; background-color: red">hello</h1>
+        <h1 style="display: inline; background-color: yellow">hello</h1>
+      </div>
+    </div>
+    <hr>
+    <div class="">
+      <h1>INLINE BLOCK ** DISPLAY</h1>
+      <h3>so whats left after block and inline?</h3>
+      <p>Glad you asked. <br>the Inline-block concept is easier to understand by knowing what its <strong>NOT</strong></p>
+      <p>first of all we can notice that immediately it looks like <strong>inline</strong>, however look closer- we can see there is a margin applied to the elements**</p>
+      <p>vvvvvvvvvvvvvv</p>
+      <h1 style="display: inline-block; background-color: green">hello</h1>
+      <h1 style="display: inline-block; background-color: red">hello</h1>
+      <h1 style="display: inline-block; background-color: yellow">hello</h1>
+      <p>^^^^^^^^^^^^^^</p>
+      <h3>why is this important?</h3>
+      <p>because we can also examine from the original example that block elements by default <strong>also have this margin applied between block elements</strong></p>
+      <p><strong>So what? it has characteristics from both inline and block. </strong></p>
+      <p>With inline elements, you're unable to specify certain CSS properties such as width, padding, or margins. Inline elements are relatively static and adapt their height characteristics based on the context in which they've been placed.</p>
+      
+      <h3 style="background-color: rgba(0, 136, 255, 0.381); height: 100px; display: inline-block" class="">thats where inline-block comes in!</h3>
+      <h1 style="background-color: rgba(60, 255, 0, 0.527); padding: 100px 0px; display: inline-block">We</h1>
+      <p style="background-color: rgba(255, 0, 0, 0.527); margin-top: 100px; height: 100px; display: inline-block">are able</p>
+      <h5 style="background-color: rgba(191, 249, 0, 0.527); margin-top: 100px; height: 100px; display: inline-block">to stringtogether elements</h5>
+      <h1 style="background-color: rgba(255, 0, 0, 0.527); height: 50px; display: inline-block"> and apply height</h1>
+      <h1 style="background-color: rgba(238, 255, 0, 0.527); height: 60px; display: inline-block"> width,</h1>
+      <h1 style="background-color: rgba(255, 0, 221, 0.527); height: 70px; display: inline-block"> and padding<h1>
+      <h1 style="background-color: rgba(0, 255, 187, 0.527); display: inline-block">however if there is not enough available space on the line to accomodate the latest inline-block element then the element will snap to a new line</h1>
+      <hr>
+      <h3>finally here is an example of a inline element with 1000px margin:</h3>
+      <h1 style="background-color: rgba(94, 255, 0, 0.527); display: inline; margin: 1000px 0px;">1000px vertical margin (no affect)</h1>
+      <img src="https://media.tenor.com/E5aLBpgECX0AAAAd/owen-wilson-wow-marley-and-me.gif" alt="">
+      <p>of course there is plenty not covered in this tutorial. But I hope this helped clear up the principles and key differences of block, inline and inline-block displays. <br>Just remember that this is a thing and that when we work with different elements they by default are given one of these display characteristics by default. It doesn't mean you cant change it though!</p>
+    </div>
     <script src="" async defer></script>
   </body>
 </html>
