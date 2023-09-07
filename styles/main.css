@@ -61,7 +61,7 @@ li {
   display: inline-block;
 }
 
-.header,
+header,
 section {
   margin: 1rem auto;
   max-width: 1200px;
