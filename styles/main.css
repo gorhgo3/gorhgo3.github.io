@@ -154,24 +154,18 @@ section {
 
 /* navbuttons */
 #nav {
-  display: inline-block;
-}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 
+}
 .nav-button {
-  margin: 0px;
-  padding: 0px;
-  /* color: var(--textdark);
-  padding: 1rem 0.5rem 0.5rem 0.5rem;
-  margin-right: 20px;
-  text-align: center;
-  border-radius: 7px;
-  text-decoration: none;
-  font-weight: 600; */
+  display: flex;
+  align-items: center;
 }
-
-
-
-
+.nav-button h2{
+  display: inline;
+}
 
 /* BLOG */
 
