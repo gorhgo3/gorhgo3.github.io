@@ -67,11 +67,12 @@ li {
 
 #personal-statement {
   color: var(--textdark);
-  /* text-align: start; */
   margin: 150px auto;
   max-width: 800px;
   text-align: justify;
   padding: 20px;
+  font-family: monospace;
+  font-size: 1rem;
 }
 
 header,
