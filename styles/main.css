@@ -131,6 +131,8 @@ section {
 }
 
 .action {
+  background-color: rgba(255, 0, 0, 0.152);
+  color: var(--textwhite);
   text-decoration: none;
   padding: 5px 20px;
   border-radius: 1rem;
@@ -138,7 +140,7 @@ section {
 }
 .action:hover {
   color: white;
-  transform: scale(1.05);
+  transform: scale(1.1);
   background-color: var(--lightRedColor);
   transition-duration: 500ms;
 }
@@ -198,6 +200,7 @@ section {
 /* SKILLS */
 
 .skills {
+  /* padding-top: 15rem; */
   margin: 5rem auto;
   background-color: var(--transparent);
 }
@@ -211,6 +214,7 @@ section {
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: fit-content;
+  padding: 10rem 0rem;
 }
 
 .bg-trans {
