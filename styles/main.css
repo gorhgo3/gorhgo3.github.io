@@ -41,7 +41,7 @@ section {
 
 hr {
   margin: 10px auto;
-  width: 80%;
+  width: 50%;
 }
 
 .bg {
@@ -131,6 +131,10 @@ section {
 
 #blog {
   margin: 100px auto;
+}
+
+#contact {
+  margin-top: 5rem;
 }
 
 .action {
