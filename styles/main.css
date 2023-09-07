@@ -34,6 +34,7 @@ section {
 .fs5 {
   font-size: 1.3rem;
 }
+
 .fl {
   display: inline-flex;
 }
@@ -126,6 +127,7 @@ section {
   border-radius: 50%;
   overflow: hidden;
 }
+
 #blog {
   margin: 100px auto;
 }
@@ -146,12 +148,12 @@ section {
 }
 
 #nav {
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 .nav-button {
-  display: inline-flexbox;
-
+  margin: 0px;
+  padding: 0px;
   /* color: var(--textdark);
   padding: 1rem 0.5rem 0.5rem 0.5rem;
   margin-right: 20px;
@@ -161,6 +163,9 @@ section {
   font-weight: 600; */
 }
 
+.sprints {
+  display: inline-block;
+}
 /* BLOG */
 
 .blog-content {
@@ -204,6 +209,7 @@ section {
   margin: 5rem auto;
   background-color: var(--transparent);
 }
+
 .skills img {
   height: 180px;
   width: 180px;
