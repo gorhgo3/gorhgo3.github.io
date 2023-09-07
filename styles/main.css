@@ -140,7 +140,7 @@ section {
 }
 .action:hover {
   color: white;
-  transform: scale(1.1);
+  transform: scale(2);
   background-color: var(--lightRedColor);
   transition-duration: 500ms;
 }
