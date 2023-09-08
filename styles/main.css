@@ -131,11 +131,11 @@ section {
   transition-duration: 500ms;
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
   .navbar {
     font-size: 1rem;
   }
-  
+
   .nav-box ul li {
     display: inline-block;
     margin-right: 0px;
@@ -164,9 +164,13 @@ section {
   /* align-content: center; */
 }
 
-.intro {
+.intro-1 {
   font-size: 55px;
-  margin-bottom: 0px;
+  margin: 0px;
+}
+
+.intro-2 {
+  margin: 0px;
 }
 
 #murrays-img {
@@ -200,7 +204,6 @@ section {
   transition-duration: 500ms;
 }
 
-
 .sprints {
   display: inline-block;
 }
@@ -210,13 +213,12 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 .nav-button {
   display: flex;
   align-items: center;
 }
-.nav-button h2{
+.nav-button h2 {
   display: inline;
 }
 
