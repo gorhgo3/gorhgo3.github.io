@@ -15,24 +15,22 @@ body {
   font-size: 1.5rem;
 }
 
-
-
 .nav-box {
-  display: inline;
-  margin-inline: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-box ul {
-  display: inline-flex;
+  display: inherit;
   list-style: none;
   padding-inline: 10px;
 }
 
 .nav-link {
-  color: rgb(0, 0, 0);
+  display: block;
+  height: 100%;
   text-decoration: none;
 }
-
-.nav-box ul li {
-  margin-inline: 7px;
+.nav-link:hover {
+  background-color: aquamarine;
 }
