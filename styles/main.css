@@ -2,12 +2,13 @@
 
 :root {
   --softGrey: rgb(247, 247, 247);
-  --midGrey: rgb(186, 186, 186);
+  --midGrey: #D8D9CF;
   --textdark: #2E3840;
   --textblack: rgb(26, 26, 26);
   --textwhite: rgb(249, 249, 249);
   --redColor: #FF0303;
   --lightRedColor: rgba(255, 0, 0, 0.495);
+  --navyBlue: #4E6E81;
   --transparent: rgba(255, 255, 255, 0);
 }
 body {
@@ -109,7 +110,7 @@ section {
   top: 0;
   height: 3rem;
   color: rgb(255, 255, 255);
-  background-color: #4e6e81ed;
+  background-color: #4e6e81;
   font-size: 1.3rem;
 }
 
@@ -132,7 +133,7 @@ section {
 }
 
 .nav-link:hover {
-  background-color: rgba(255, 0, 0, 0.471);
+  background-color: var(--navyBlue);
   color: white;
   transition-duration: 500ms;
 }
