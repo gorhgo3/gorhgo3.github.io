@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  background-color: bisque;
+  height: 400vw;
+}
+
+
+.navbar {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  height: 3rem;
+  background-color: rgba(255, 240, 226, 0.512);
+  font-size: 1.5rem;
+}
+
+
+
+.nav-box {
+  display: inline;
+  margin-inline: 10px;
+}
+
+.nav-box ul {
+  display: inline-flex;
+  list-style: none;
+  padding-inline: 10px;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.nav-box ul li {
+  margin-inline: 7px;
+}
