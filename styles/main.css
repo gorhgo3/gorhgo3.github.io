@@ -220,7 +220,7 @@ section {
 }
 
 .action {
-  background-color: rgba(255, 0, 0, 0.152);
+  background-color: rgba(255, 29, 29, 0.444);
   color: var(--textwhite);
   text-decoration: none;
   padding: 5px 20px;
