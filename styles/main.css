@@ -1,10 +1,12 @@
+/* 4E6E81 F9DBBB FF0303 2E3840 */
+
 :root {
   --softGrey: rgb(247, 247, 247);
   --midGrey: rgb(186, 186, 186);
-  --textdark: rgb(65, 65, 65);
+  --textdark: #2E3840;
   --textblack: rgb(26, 26, 26);
   --textwhite: rgb(249, 249, 249);
-  --redColor: red;
+  --redColor: #FF0303;
   --lightRedColor: rgba(255, 0, 0, 0.495);
   --transparent: rgba(255, 255, 255, 0);
 }
@@ -38,6 +40,10 @@ section {
 .fl {
   display: inline-flex;
 }
+.di {
+  display: inline;
+}
+
 
 hr {
   margin: 10px auto;
@@ -103,7 +109,7 @@ section {
   top: 0;
   height: 3rem;
   color: rgb(255, 255, 255);
-  background-color: rgba(66, 198, 255, 0.711);
+  background-color: #4e6e81ed;
   font-size: 1.3rem;
 }
 
@@ -153,7 +159,6 @@ section {
 .header-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   margin-right: 2rem;
 }
 
@@ -161,7 +166,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* align-content: center; */
 }
 
 .intro-1 {
@@ -170,7 +174,7 @@ section {
 }
 
 .intro-2 {
-  margin: 0px;
+  margin: 4rem 0px 0px 0px;
 }
 
 #murrays-img {
