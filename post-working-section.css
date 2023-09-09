@@ -1,3 +1,8 @@
+:root {
+  --fontColor: rgb(60, 60, 60);
+  --postbackgroundcolor: rgb(189, 189, 189);
+}
+
 .post-display {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
@@ -6,5 +11,43 @@
 
 .blog-preview1 {
   height: 20rem;
-  background-color: grey;
+  background-color: var(--postbackgroundcolor);
+  background-image: linear-gradient(to bottom, transparent, rgb(75, 75, 75));
+}
+
+.blog-preview1-link {
+  height: 100%;
+  text-decoration: none;
+  color: var(--fontColor);
+  display: block;
+  overflow: hidden;
+}
+
+.blog-preview1:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+}
+
+.blog-preview1-image {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog-preview1-content {
+  padding: 1rem;
+  text-align: justify;
+  max-height: 50%;
+  box-sizing: border-box;
+}
+
+.blog-preview1-header {
+  text-align: center;
+  color: black;
+  font-size: 1rem;
+  margin: 0px;
+}
+.blog-preview1-summary {
+  color: var(--fontColor);
+  margin-top: 4px;
 }
