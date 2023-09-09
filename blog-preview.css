@@ -9,7 +9,7 @@
   grid-gap: 1rem 0.5rem;
 }
 
-.blow-preview {
+.blog-preview {
   height: 20rem;
   background-color: var(--postbackgroundcolor);
   background-image: linear-gradient(to bottom, transparent, rgb(75, 75, 75));
@@ -23,7 +23,7 @@
   overflow: hidden;
 }
 
-.blow-preview:hover {
+.blog-preview:hover {
   opacity: 0.8;
   transform: scale(1.02);
 }

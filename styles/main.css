@@ -262,7 +262,7 @@ section {
   color: grey;
 }
 
-.blog-preview {
+/* .blog-preview {
   position: relative;
   color: white;
   flex: 1;
@@ -278,7 +278,7 @@ section {
   cursor: pointer;
   transition-duration: 500ms;
   opacity: 0.8;
-}
+} */
 .preview-link {
   position: absolute;
   height: 100%;
