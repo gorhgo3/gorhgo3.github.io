@@ -1,2 +1,10 @@
 .post-display {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 1rem 0.5rem;
+}
+
+.blog-preview1 {
+  height: 20rem;
+  background-color: grey;
 }
