@@ -9,10 +9,14 @@
   grid-gap: 1rem 0.5rem;
 }
 
+.blog-preview.more-soon {
+  content: '';
+  background: rgba(57, 57, 57, 0.353);
+}
+
 .blog-preview {
   height: 20rem;
   background-color: var(--postbackgroundcolor);
-  background-image: linear-gradient(to bottom, transparent, rgb(75, 75, 75));
 }
 
 .blog-preview-wrapper-link {
@@ -39,6 +43,8 @@
   text-align: justify;
   max-height: 50%;
   box-sizing: border-box;
+  background-image: linear-gradient(to bottom, transparent, rgb(102, 102, 102));
+
 }
 
 .content--header {
