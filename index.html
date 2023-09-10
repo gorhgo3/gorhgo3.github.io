@@ -11,13 +11,12 @@
       src="https://kit.fontawesome.com/f5fe937692.js"
       crossorigin="anonymous"
     ></script>
-
     <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="blog-preview.css" />
     <title>My blog</title>
   </head>
   <body>
     <div class="navbar">
-      <div class="nav-box">Murrays-space</div>
       <div class="nav-box">
         <ul>
           <li><a class="nav-link" href="#">Home</a></li>
@@ -50,48 +49,112 @@
       </div>
     </header>
 
-    <hr />
-
     <section id="blog" class="blogs">
       <img
-      id="dev-academy-background"
-      src="https://devacademy.co.nz/wp-content/uploads/2022/05/brandmark_white_pattern.png"
-      alt=""
-    />
-    <div id="blog-introduction">
-      <h3>Where am I right now?</h3>
-      <p>
-        Right now I am studying a Dev Academy, New Zealand, where we learn all
-        things Web-Development and collaboration. Prior to this, I was a
-        self-taught student, relying on YouTube and Udemy courses. My background includes
-        working as an electrician for 9 years, which is where my journey began.
-      </p>
-      <p>
-        In this blog, I will share my experiences, learnings, and challenges I
-        face during my web development journey. My goal is to help others learn
-        from my experiences and to stay engaged.
-      </p>
-      <p>
-        While some of my thoughts may not be unique, I believe my background
-        may provide unique perspective to the learning processes of the Tech industry.
-      </p>
-      <p>
-        Without further ado, welcome to my blog. Stay a while and explore my
-        journey.
-      </p>
-    </div>
-    <div id="blog-overview">
-      <h4 class="text-dark">
-        "The story of someone trying to make it as an up-and-coming Web
-        Developer. Share the reservations and triumphs that come with being a
-        beginner once again!"
-      </h4>
-      <h3>
-        <a id="follow-me" class="action text-dark" href="/blogs.html"
-          >Want to follow along?</a
+        id="dev-academy-background"
+        src="https://devacademy.co.nz/wp-content/uploads/2022/05/brandmark_white_pattern.png"
+        alt=""
+      />
+      <div id="blog-introduction">
+        <h3>Where am I right now?</h3>
+        <p>
+          Right now I am studying a Dev Academy, New Zealand, where we learn all
+          things Web-Development and collaboration. Prior to this, I was a
+          self-taught student, relying on YouTube and Udemy courses. My
+          background includes working as an electrician for 9 years, which is
+          where my journey began.
+        </p>
+        <p>
+          In this blog, I will share my experiences, learnings, and challenges I
+          face during my web development journey. My goal is to help others
+          learn from my experiences and to stay engaged.
+        </p>
+        <p>
+          While some of my thoughts may not be unique, I believe my background
+          may provide unique perspective to the learning processes of the Tech
+          industry.
+        </p>
+        <p>
+          Without further ado, welcome to my blog. Stay a while and explore my
+          journey.
+        </p>
+      </div>
+      <div id="blog-overview">
+        <h4 class="text-dark">
+          "The story of someone trying to make it as an up-and-coming Web
+          Developer. Share the reservations and triumphs that come with being a
+          beginner once again!"
+        </h4>
+        <h3>
+          <a id="follow-me" class="action text-dark" href="/blogs.html"
+            >Want to follow along?</a
+          >
+        </h3>
+      </div>
+    </section>
+
+    <section class="post-display">
+      <div class="blog-preview">
+        <a
+          href="blog/te-houtaewa-template.html"
+          class="blog-preview-wrapper-link"
         >
-      </h3>
-    </div>
+          <img
+            src="https://images.unsplash.com/photo-1614400933082-9cb1d6d7857e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+            class="b-preview--img"
+          />
+          <div class="b-preview--content">
+            <h2 class="content--header">The Story of Te Houtaewa</h2>
+            <p class="content--summary">
+              Te Houtaewa was the fastest runner of his day and played many
+              pranks on his peoples enemies. One morning his mother wanted
+              kumara for the hangi (earth oven) and asked Te Houtaewa to go to
+              the gardens at Te Kao, a short distance away. He agreed to fetch
+              the kumara and told his mother to prepare the hangi.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="blog-preview">
+        <a href="blog/html-css.html" class="blog-preview-wrapper-link">
+          <img
+            src="https://images.unsplash.com/photo-1632882765546-1ee75f53becb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
+            alt=""
+            class="b-preview--img"
+          />
+          <div class="b-preview--content">
+            <h2 class="content--header">
+              Basic CrashCourse Block, inline and inline-block
+            </h2>
+            <p class="content--summary">
+              Looking to find out or better understand more about the block,
+              inline, and inline-block CSS characteristics? This acts as an
+              introduction to the basic principles of these CSS additions!
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="blog-preview">
+        <a href="blog/html-css.html" class="blog-preview-wrapper-link">
+          <img
+            src="https://images.unsplash.com/photo-1632882765546-1ee75f53becb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
+            alt=""
+            class="b-preview--img"
+          />
+          <div class="b-preview--content">
+            <h2 class="content--header">
+              Basic CrashCourse Block, inline and inline-block
+            </h2>
+            <p class="content--summary">
+              Looking to find out or better understand more about the block,
+              inline, and inline-block CSS characteristics? This acts as an
+              introduction to the basic principles of these CSS additions!
+            </p>
+          </div>
+        </a>
+      </div>
     </section>
 
     <hr />
