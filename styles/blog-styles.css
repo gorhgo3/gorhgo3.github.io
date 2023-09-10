@@ -1,0 +1,15 @@
+.blog-header {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  font-size: 3rem;
+}
+
+.blog-section {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2rem;
+}
+.blog-section--head {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.blog-section--content {}
