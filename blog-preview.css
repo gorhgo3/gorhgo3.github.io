@@ -4,6 +4,7 @@
 }
 
 .post-display {
+  margin: 3rem auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   grid-gap: 1rem 0.5rem;
@@ -41,10 +42,10 @@
 .b-preview--content {
   padding: 1rem;
   text-align: justify;
+  height:  100%;
   max-height: 50%;
   box-sizing: border-box;
   background-image: linear-gradient(to bottom, transparent, rgb(102, 102, 102));
-
 }
 
 .content--header {
