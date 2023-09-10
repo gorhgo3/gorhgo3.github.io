@@ -121,7 +121,7 @@ section {
 .navbar {
   position: sticky;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   top: 0;
   z-index: 1;
   height: 3rem;
@@ -208,7 +208,7 @@ section {
 
 #blog {
   background-color: rgba(255, 255, 255, 0);
-  /* margin: 100px auto; */
+  margin: 100px auto;
   text-align: justify;
   padding: 1rem;
 }
