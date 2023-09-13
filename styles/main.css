@@ -259,7 +259,7 @@ section {
 /* BLOG */
 
 .blog-content {
-  display: flex;
+  /* display: flex; */
   justify-content: space-evenly;
   padding: 0.5rem;
   color: grey;
