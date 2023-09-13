@@ -1,291 +1,369 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../blog-preview.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title></title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="../styles/main.css" />
-</head>
+  <body>
+    <main>
+      <header>
+        <h1>Technical Blog - JS Fundamentals</h1>
+      </header>
 
-<body>
-  <main>
-    <header>
-      <h1>Technical Blog - JS Fundamentals</h1>
-    </header>
+      <section class="blog">
+        <h3 class="blog-header">Simply put- What is Javascript?</h3>
+        <div class="blog-content">
+          <p>
+            JavaScript is a versatile scripting language often referred to as
+            the "language of the internet." It plays a crucial role in web and
+            app development by enabling dynamic functionality. One of its
+            standout features is its ability to interact with the browser's
+            Document Object Model (DOM), which we will talk more about shortly.
+          </p>
 
-    <section>
-      <h3 class="blog-header">Simply put- What is Javascript?</h3>
-      <div class="blog-content">
-        <p>
-          JavaScript is a versatile scripting language often referred to as the "language of the internet." It plays a
-          crucial role in web and app development by enabling dynamic functionality. One of its standout features is its
-          ability to interact with the browser's Document Object Model (DOM), which is essential for creating dynamic
-          web pages.
-        </p>
+          <h4>JavaScript's Applications</h4>
 
-        <h4>JavaScript's Applications</h4>
+          <p>
+            JavaScript stands apart from HTML and CSS due to its unique role in
+            handling events and driving dynamic changes within web applications.
+            While it differs significantly from HTML and CSS, these three
+            technologies work together in harmony.
+          </p>
+        </div>
+</section>
+      <section class="blog">
+        <h3 class="blog-header">
+          Throughout this crash-course intro to Javascript we are going to liken
+          the operation of javascript to our breakfast routines.
+        </h3>
+        <div class="blog-content">
+          <p>
+            Programming languages, like your fridge, have different ways of
+            managing the flow of actions. Let's dive into how JavaScript handles
+            these "kitchen decisions."
+          </p>
+          <h4>First, What is "Control Flow"?</h4>
+          <p>
+            Control flow refers to the order in which individual statements,
+            instructions, or function calls in an imperative program are
+            executed or evaluated. <br />In simpler terms, it's like reading a
+            book from left to right, top to bottom. Coding in JavaScript follows
+            a similar sequential logic. There's nothing inherently special about
+            the natural order in which the script is executed at face value.
+          </p>
 
-        <p>
-          JavaScript stands apart from HTML and CSS due to its unique role in manipulating events and driving dynamic
-          changes within web applications. While it differs significantly from HTML and CSS, these three technologies
-          work together in harmony. Without any one of them, the internet as we know it today would not exist.
-        </p>
-        <hr>
-      </div>
-      <!-- <div class="blog-image">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
-          alt="" />
-      </div> -->
-    </section>
+          <h4>Managing Script Flow</h4>
+          <p>
+            In JavaScript, we use control structures to influence the flow of
+            events in our applications. While it does read much the same as a
+            book- we employ 'conditionals' to selectively activate or prevent
+            sections of our script from running. This customization allows us to
+            adapt the script's behavior to specific use cases. In essence,
+            coding often boils down to a series of conditional statements, and
+            complex applications consist of thousands or even millions of these
+            conditions. <br />This concept underlies what happens behind the
+            scenes in various domains, including games, scripting, data
+            analysis, and web development (backend).
+          </p>
+          <h4>Your Fridge's Control Flow</h4>
 
+          <p>
+            Imagine your fridge as a JavaScript program. Just like in coding,
+            your fridge makes decisions based on what's inside. Here's how
+            JavaScript's control flow mechanisms relate to your fridge:
+          </p>
 
-    <section>
-      <h1 class="blog-header">Throughout this crash-course intro to Javascript we are going to liken the operation of javascript to our breakfast routines.</h1>
-      <div class="blog-content">
-        <p>
-          Programming languages, like your fridge, have different ways of managing the flow of actions. Let's dive into
-          how JavaScript, in particular, handles these "kitchen decisions."
-        </p>
-        <h4>First, What is "Control Flow"?</h4>
-        <p>
-          Control flow refers to the order in which individual statements, instructions, or function calls in an
-          imperative program are executed or evaluated. <br />In simpler terms, it's like reading a book from left to
-          right, top to bottom. Coding in JavaScript follows a similar sequential logic. There's nothing inherently
-          special about the natural order in which the script is executed.
-        </p>
+          <ul>
+            <li>
+              Logical OR Operator (<strong>||</strong>): It's like checking if
+              there's orange juice or milk. You take the first available option.
+            </li>
+            <li>
+              Ternary Operator (<strong>?</strong>): Think of it as deciding
+              between a big glass and a small glass for your juice:
+              <em>condition ? bigGlass : smallGlass</em>.
+            </li>
+            <li>
+              if Statement: Just like opening your fridge to check if the milk
+              is expired. If it is, you buy a new one; otherwise, you use what's
+              there.
+            </li>
+            <li>
+              else Statement: When the juice is empty, you grab the milk
+              instead. It's your "Plan B."
+            </li>
+            <li>
+              Logical AND Operator (<strong>&amp;&amp;</strong>): Imagine
+              needing both milk and eggs to make pancakes. You'll only make them
+              if both items are available.
+            </li>
+            <li>
+              Comparison Operators: These are like checking if an item in the
+              fridge is fresh or expired, e.g., <em>if (milk === 'fresh')</em>.
+            </li>
+            <li>
+              else if Clause: Sometimes you want pancakes if you have fresh eggs
+              or cereal if you don't. You have multiple options.
+            </li>
+            <li>
+              Truthy and Falsy Values: When you check if there's something in
+              the fridge, it can be either "truthy" (yes, there's something) or
+              "falsy" (nope, it's empty).
+            </li>
+          </ul>
 
-        <h4>Managing Script Flow</h4>
-        <p>
-          In JavaScript, we use control structures to influence the flow of events in our applications. Not all the code
-          runs at once. Instead, we employ conditionals to selectively activate or prevent sections of our script from
-          running. This customization allows us to adapt the script's behavior to specific use cases. Control
-          structures, such as <strong>conditionals</strong>, play a fundamental role in this process. In essence, coding
-          often boils down to a series of if/else statements, and complex applications consist of thousands or even
-          millions of these conditions. This concept underlies what happens behind the scenes in various domains,
-          including games, scripting, data analysis, and web development (backend).
-        </p>
-        <h4>Your Fridge's Control Flow</h4>
+          <p>
+            In your kitchen (or your code), these control flow mechanisms help
+            you make decisions based on what's in your fridge (or your program's
+            data). Just as you adapt your breakfast choices, your code adapts to
+            different scenarios, making it as versatile as your morning routine.
+          </p>
+        </div>
+        <div class="blog-image">
+          <img
+            src="https://png.pngtree.com/png-vector/20220618/ourmid/pngtree-a-grey-fridge-png-image_5135763.png"
+            alt=""
+          />
+        </div>
+</section>
+      <section class="blog">
+        <h3 class="blog-header">What is the DOM?</h3>
+        <div class="blog-content">
+          <p>
+            One of the key factors that make the DOM (Document Object Model)
+            invaluable to developers is its ability to interact with and
+            manipulate the current state of displayed content using JavaScript.
+            This interaction is made possible by the use of the script tag in
+            HTML files.
+          </p>
 
-        <p>
-          Imagine your fridge as a JavaScript program. Just like in coding, your fridge makes decisions based on what's
-          inside. Here's how JavaScript's control flow mechanisms relate to your fridge:
-        </p>
+          <p>
+            The significance of this capability lies in our ability to access
+            elements within the DOM, which are commonly referred to as "nodes."
+            Our interaction with the DOM opens the door to initiating dynamic
+            changes based on user interactivity. For instance, when a user
+            clicks a button, we can write a script that modifies a specific
+            node. This node can be any object within our HTML document,
+            including headings (<code>&lt;h&gt;</code> tags), paragraphs (<code
+              >&lt;p&gt;</code
+            >
+            tags), spans (<code>&lt;span&gt;</code> tags), and more. We can go
+            beyond simple text changes and also manipulate attributes, such as
+            altering colors or other properties. In essence, the DOM empowers us
+            with the tools to create dynamic and interactive web experiences.
+          </p>
+        </div>
+        <div class="blog-image">
+          <img src="" alt="" />
+        </div>
+</section>
+      <section class="blog">
+        <h3 class="blog-header">Arrays and Objects</h3>
+        <div class="blog-content">
+          <p>
+            Both JavaScript arrays and objects can be thought of as containers,
+            each with their own methods and operators unique to their respective
+            elements. Objects can be considered as variables that contain a
+            series of variables, maintaining a reference between both 'key' and
+            'index' values, where the key is linked to the index.
+          </p>
 
-        <ul>
-          <li>Logical OR Operator (<strong>||</strong>): It's like checking if there's orange juice or milk. You take
-            the first available option.</li>
-          <li>Ternary Operator (<strong>?</strong>): Think of it as deciding between a big glass and a small glass for
-            your juice: <em>condition ? bigGlass : smallGlass</em>.</li>
-          <li>if Statement: Just like opening your fridge to check if the milk is expired. If it is, you buy a new one;
-            otherwise, you use what's there.</li>
-          <li>else Statement: When the juice is empty, you grab the milk instead. It's your "Plan B."</li>
-          <li>Logical AND Operator (<strong>&amp;&amp;</strong>): Imagine needing both milk and eggs to make pancakes.
-            You'll only make them if both items are available.</li>
-          <li>Comparison Operators: These are like checking if an item in the fridge is fresh or expired, e.g., <em>if
-              (milk === 'fresh')</em>.</li>
-          <li>else if Clause: Sometimes you want pancakes if you have fresh eggs or cereal if you don't. You have
-            multiple options.</li>
-          <li>Truthy and Falsy Values: When you check if there's something in the fridge, it can be either "truthy"
-            (yes, there's something) or "falsy" (nope, it's empty).</li>
-        </ul>
+          <p>
+            In contrast, arrays are containers that hold variables with no
+            relationship to each other beyond coexisting within the parent
+            array. Both objects and arrays serve common purposes in JavaScript
+            and have unique use cases.
+          </p>
+          <h1>Methods Unique to Objects</h1>
 
-        <p>
-          In your kitchen (or your code), these control flow mechanisms help you make decisions based on what's in your
-          fridge (or your program's data). Just as you adapt your breakfast choices, your code adapts to different
-          scenarios, making it as versatile as your morning routine.
-        </p>
-      </div>
-      <div class="blog-image">
-        <img src="https://png.pngtree.com/png-vector/20220618/ourmid/pngtree-a-grey-fridge-png-image_5135763.png"
-          alt="" />
-      </div>
-    </section>
+          <p>
+            Objects in JavaScript have several methods that allow you to
+            manipulate and interact with their properties. Some common methods
+            for objects include:
+          </p>
 
-    <section>
-      <h3 class="blog-header">What is the DOM?</h3>
-      <div class="blog-content">
-        <p>
-          One of the key factors that make the DOM (Document Object Model) invaluable to developers is its ability to
-          interact with and manipulate the current state of displayed content using JavaScript. This interaction is made
-          possible by the use of the script tag in HTML files.
-        </p>
+          <ul>
+            <li>
+              <code>Object.keys(obj)</code>: Returns an array of an object's own
+              property keys.
+            </li>
+            <li>
+              <code>Object.values(obj)</code>: Returns an array of an object's
+              own property values.
+            </li>
+            <li>
+              <code>Object.entries(obj)</code>: Returns an array of an object's
+              own property key-value pairs as arrays.
+            </li>
+          </ul>
 
-        <p>
-          The significance of this capability lies in our ability to access elements within the DOM, which are commonly
-          referred to as "nodes." Our interaction with the DOM opens the door to initiating dynamic changes based on
-          user interactivity. For instance, when a user clicks a button, we can write a script that modifies a specific
-          node. This node can be any object within our HTML document, including headings (<code>&lt;h&gt;</code> tags),
-          paragraphs (<code>&lt;p&gt;</code> tags), spans (<code>&lt;span&gt;</code> tags), and more. We can go beyond
-          simple text changes and also manipulate attributes, such as altering colors or other properties. In essence,
-          the DOM empowers us with the tools to create dynamic and interactive web experiences.
-        </p>
-      </div>
-      <div class="blog-image">
-        <img src="" alt="" />
-      </div>
-    </section>
+          <h1>Methods Unique to Arrays</h1>
 
-    <section>
-      <h3 class="blog-header">Arrays and Objects</h3>
-      <div class="blog-content">
-        <p>
-          Both JavaScript arrays and objects can be thought of as containers, each with their own methods and operators
-          unique to their respective elements. Objects can be considered as variables that contain a series of
-          variables, maintaining a reference between both 'key' and 'index' values, where the key is linked to the
-          index.
-        </p>
+          <p>
+            Arrays, on the other hand, come with their own set of methods
+            tailored for handling ordered collections of data. Some common
+            methods for arrays include:
+          </p>
 
-        <p>
-          In contrast, arrays are containers that hold variables with no relationship to each other beyond coexisting
-          within the parent array. Both objects and arrays serve common purposes in JavaScript and have unique use
-          cases.
-        </p>
-        <h1>Methods Unique to Objects</h1>
-  
-        <p>
-          Objects in JavaScript have several methods that allow you to manipulate and interact with their properties. Some
-          common methods for objects include:
-        </p>
-  
-        <ul>
-          <li><code>Object.keys(obj)</code>: Returns an array of an object's own property keys.</li>
-          <li><code>Object.values(obj)</code>: Returns an array of an object's own property values.</li>
-          <li><code>Object.entries(obj)</code>: Returns an array of an object's own property key-value pairs as arrays.
-          </li>
-        </ul>
-  
-        <h1>Methods Unique to Arrays</h1>
-  
-        <p>
-          Arrays, on the other hand, come with their own set of methods tailored for handling ordered collections of data.
-          Some common methods for arrays include:
-        </p>
-  
-        <ul>
-          <li><code>array.push(item)</code>: Adds an item to the end of an array.</li>
-          <li><code>array.pop()</code>: Removes and returns the last item from an array.</li>
-          <li><code>array.shift()</code>: Removes and returns the first item from an array.</li>
-          <li><code>array.unshift(item)</code>: Adds an item to the beginning of an array.</li>
-        </ul>
-      </div>
-      <div class="blog-image">
-        <img src="../objectsArrays.png" alt="" />
-      </div>
-    </section>
+          <ul>
+            <li>
+              <code>array.push(item)</code>: Adds an item to the end of an
+              array.
+            </li>
+            <li>
+              <code>array.pop()</code>: Removes and returns the last item from
+              an array.
+            </li>
+            <li>
+              <code>array.shift()</code>: Removes and returns the first item
+              from an array.
+            </li>
+            <li>
+              <code>array.unshift(item)</code>: Adds an item to the beginning of
+              an array.
+            </li>
+          </ul>
+        </div>
+        <div class="blog-image">
+          <img src="../objectsArrays.png" alt="" />
+        </div>
+      </section">
 
-    <section>
-      <h3 class="blog-header">Functions</h3>
-      <div class="blog-content">
-        <p>
-          JavaScript functions are essential pieces of code that empower developers to define actions they want their
-          scripts to perform. They are commonly used to implement conditional statements and manage the control flow of
-          an application.
-        </p>
+      <section class="blog">
+        <h3 class="blog-header">Functions</h3>
+        <div class="blog-content">
+          <p>
+            JavaScript functions are essential pieces of code that empower
+            developers to define actions they want their scripts to perform.
+            They are commonly used to implement conditional statements and
+            manage the control flow of an application.
+          </p>
 
-        <p>
-          Functions are isolated blocks of code that remain dormant until they are called or triggered by existing
-          scripts. This might seem counterintuitive at first—writing code that isn't always executed—but it offers a
-          highly customized user experience when running our applications.
-        </p>
+          <p>
+            Functions are isolated blocks of code that remain dormant until they
+            are called or triggered by existing scripts. This might seem
+            counterintuitive at first—writing code that isn't always
+            executed—but it offers a highly customized user experience when
+            running our applications.
+          </p>
 
-        <p>
-          To illustrate, think of a function as a button in your kitchen:
-        </p>
+          <p>To illustrate, think of a function as a button in your kitchen:</p>
 
-        <h4>Press This Button: Open the Fridge Door</h4>
-        <p>
-          When you press this button (call the function), it performs a specific action—opening the fridge door. This
-          action is executed only when you want it to be, not every time you enter the kitchen.
-        </p>
+          <h4>Press This Button: Open the Fridge Door</h4>
+          <p>
+            When you press this button (call the function), it performs a
+            specific action—opening the fridge door. This action is executed
+            only when you want it to be, not every time you enter the kitchen.
+          </p>
 
-        <h4>Don't Press This Button: Don't Open the Fridge</h4>
-        <p>
-          On the other hand, when you don't press this button (don't call the function), the fridge remains closed. The
-          code for opening the fridge door doesn't run unless you explicitly trigger it.
-        </p>
-      </div>
-      <div class="blog-image">
-        <img src="" alt="" />
-      </div>
-    </section>
+          <h4>Don't Press This Button: Don't Open the Fridge</h4>
+          <p>
+            On the other hand, when you don't press this button (don't call the
+            function), the fridge remains closed. The code for opening the
+            fridge door doesn't run unless you explicitly trigger it.
+          </p>
+        </div>
+        <div class="blog-image">
+          <img src="" alt="" />
+        </div>
+</section>
+      <section class="blog">
+        <h3 class="blog-header">
+          An Analogy to Describe JavaScript and Its Relationship to HTML and CSS
+        </h3>
+        <div class="blog-content">
+          <p>
+            JavaScript is fundamentally different from HTML and CSS, but it is
+            essential to highlight the common ground in which they all coexist
+            in the world of web development.
+          </p>
 
-    <section>
-      <h3 class="blog-header">An Analogy to Describe JavaScript and Its Relationship to HTML and CSS</h3>
-      <div class="blog-content">
-        <p>
-          JavaScript is fundamentally different from HTML and CSS, but it is essential to highlight the common ground in
-          which they all coexist in the world of web development.
-        </p>
+          <p>
+            JavaScript, HTML, and CSS are all processed through the browser DOM,
+            and all are taken into consideration by the browser when displaying
+            a webpage. This is <strong>HUGE</strong>, and the outcomes are
+            marvelous!
+          </p>
 
-        <p>
-          JavaScript, HTML, and CSS are all processed through the browser DOM, and all are taken into consideration by
-          the browser when displaying a webpage. This is <strong>HUGE</strong>, and the outcomes are marvelous!
-        </p>
+          <p>
+            Imagine that fridge once again: HTML would be the food—unmistakably
+            food. We cannot consume the fridge itself, and alone without food,
+            what would be the point of a fridge? CSS would be the fridge—it
+            makes food keep, it's palatable when you want to eat it within
+            reason, of course. Nonetheless, CSS is in most cases thought of as
+            an essential part of web development, much like in the case of
+            keeping food cold—one could liken CSS to a fridge to moderate the
+            temperature and keep food fresh.
+          </p>
 
-        <p>
-          Imagine that fridge once again: HTML would be the food—unmistakably food. We cannot consume the fridge itself,
-          and alone without food, what would be the point of a fridge? CSS would be the fridge—it makes food keep, it's
-          palatable when you want to eat it within reason, of course. Nonetheless, CSS is in most cases thought of as an
-          essential part of web development, much like in the case of keeping food cold—one could liken CSS to a fridge
-          to moderate the temperature and keep food fresh.
-        </p>
+          <h3>Ah, and JavaScript. What else is left?</h3>
 
-        <h3>Ah, and JavaScript. What else is left?</h3>
+          <p>
+            JavaScript is like the hinges that keep the door on. Want an ice
+            dispenser? JavaScript's got you covered. Thirsty? Maybe we also
+            dispense water as well. JavaScript is not essential, but it's darn
+            good to have at our disposal. And when it doesn't cost thousands of
+            dollars like a fancy fridge, wouldn't you be mad not to utilize
+            JavaScript?
+          </p>
+          <button>The DOM and runtime</button>
+          <div id="fridge-analogy-javascript" aria-label="hidden">
+            <h3>One for the Road...</h3>
 
-        <p>
-          JavaScript is like the hinges that keep the door on. Want an ice dispenser? JavaScript's got you covered.
-          Thirsty? Maybe we also dispense water as well. JavaScript is not essential, but it's darn good to have at our
-          disposal. And when it doesn't cost thousands of dollars like a fancy fridge, wouldn't you be mad not to
-          utilize JavaScript?
-        </p>
-        <h3>One for the Road...</h3>
-  
-        <p>
-          To summarize and keep the analogy of our morning breakfast routine going, I want to emphasize the critical role
-          of the DOM and the browser runtime in web development.
-        </p>
-  
-        <p>
-          Think of the DOM as the intricate machinery inside a state-of-the-art smart fridge that regulates temperature,
-          manages food storage, and produces ice cubes. It continuously updates and runs processes to ensure everything
-          functions smoothly.
-        </p>
-  
-        <p>
-          Now, when it comes to the browser runtime, it's like having a highly skilled chef who is always ready to prepare
-          your meals on-demand.
-        </p>
-  
-        <p>
-          Imagine you, as the user, walk into the kitchen (the webpage) and request something specific, like wanting a
-          fresh smoothie (interacting with a web element). The chef (browser runtime) immediately goes to work, selecting
-          the best ingredients (JavaScript code) and using various kitchen gadgets (browser features) to prepare your
-          request just the way you like it.
-        </p>
-  
-        <p>
-          Unlike static appliances, the browser runtime is responsive and acts upon user input and events on the webpage.
-          It's more like a highly skilled kitchen staff, always ready to create interactive and dynamic web experiences as
-          needed.
-        </p>
-  
-        <p>
-          So, while the DOM and the browser runtime may not be as straightforward as conventional appliances, they are the
-          dynamic heart of web development, orchestrating and executing actions that bring web pages to life.
-        </p>
-      </div>
-      <div class="blog-image">
-        <img src="your-image-source-here" alt="Image Description" />
-      </div>
-    </section>
+            <p>
+              To summarize and keep the analogy of our morning breakfast routine
+              going, I want to emphasize the critical role of the DOM and the
+              browser runtime in web development.
+            </p>
 
-  </main>
+            <p>
+              Think of the DOM as the intricate machinery inside a
+              state-of-the-art smart fridge that regulates temperature, manages
+              food storage, and produces ice cubes. It continuously updates and
+              runs processes to ensure everything functions smoothly.
+            </p>
 
-  <script src="" async defer></script>
-</body>
+            <p>
+              Now, when it comes to the browser runtime, it's like having a
+              highly skilled chef who is always ready to prepare your meals
+              on-demand.
+            </p>
 
+            <p>
+              Imagine you, as the user, walk into the kitchen (the webpage) and
+              request something specific, like wanting a fresh smoothie
+              (interacting with a web element). The chef (browser runtime)
+              immediately goes to work, selecting the best ingredients
+              (JavaScript code) and using various kitchen gadgets (browser
+              features) to prepare your request just the way you like it.
+            </p>
+
+            <p>
+              Unlike static appliances, the browser runtime is responsive and
+              acts upon user input and events on the webpage. It's more like a
+              highly skilled kitchen staff, always ready to create interactive
+              and dynamic web experiences as needed.
+            </p>
+
+            <p>
+              So, while the DOM and the browser runtime may not be as
+              straightforward as conventional appliances, they are the dynamic
+              heart of web development, orchestrating and executing actions that
+              bring web pages to life.
+            </p>
+          </div>
+        </div>
+        <div class="blog-image">
+          <img src="your-image-source-here" alt="Image Description" />
+        </div>
+</section>    </main>
+
+    <script src="" async defer></script>
+  </body>
 </html>

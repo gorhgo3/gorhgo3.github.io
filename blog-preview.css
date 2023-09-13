@@ -57,3 +57,23 @@
   color: var(--fontColor);
   margin-top: 4px;
 }
+
+
+/* BLOG PUBLISH CSS */
+.blog-header {
+  font-size: 3rem;
+
+}
+.blog-content {}
+.blog-content h4 {
+  /* margin: 10rem auto; */
+}
+.blog-image1 {
+  
+}
+.blog-image2 {
+
+}
+.blog-image3 {
+
+}

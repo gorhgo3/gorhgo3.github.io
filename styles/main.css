@@ -11,6 +11,12 @@
   --navyBlue: #4E6E81;
   --transparent: rgba(255, 255, 255, 0);
 }
+
+
+[aria-label="hidden"] {
+  display: none;
+}
+
 body {
   font-family: sans-serif;
   font-weight: 400;
