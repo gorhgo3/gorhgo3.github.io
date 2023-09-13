@@ -60,12 +60,23 @@
 
 
 /* BLOG PUBLISH CSS */
+section.blog {
+  color: black;
+}
 .blog-header {
-  font-size: 3rem;
+  font-size: 1.5rem;
 
 }
-.blog-content {}
+.blog-content {
+  text-align: start;
+  color: inherit;
+}
+.blog-content p {
+  /* margin: 0.5rem; */
+}
 .blog-content h4 {
+  text-align: start;
+  margin-top: 3rem;
   /* margin: 10rem auto; */
 }
 .blog-image1 {
@@ -76,4 +87,9 @@
 }
 .blog-image3 {
 
+}
+
+#javascript-notice {
+  background-color: yellow;
+  margin: 0px;
 }

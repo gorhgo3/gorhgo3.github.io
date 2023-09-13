@@ -17,7 +17,7 @@
       </header>
 
       <section class="blog">
-        <h3 class="blog-header">Simply put- What is Javascript?</h3>
+        <h3 class="blog-header">What is Javascript?</h3>
         <div class="blog-content">
           <p>
             JavaScript is a versatile scripting language often referred to as
@@ -26,29 +26,27 @@
             standout features is its ability to interact with the browser's
             Document Object Model (DOM), which we will talk more about shortly.
           </p>
-
-          <h4>JavaScript's Applications</h4>
-
           <p>
             JavaScript stands apart from HTML and CSS due to its unique role in
             handling events and driving dynamic changes within web applications.
             While it differs significantly from HTML and CSS, these three
             technologies work together in harmony.
           </p>
-        </div>
-</section>
-      <section class="blog">
-        <h3 class="blog-header">
-          Throughout this crash-course intro to Javascript we are going to liken
-          the operation of javascript to our breakfast routines.
-        </h3>
-        <div class="blog-content">
+          <h4 id="javascript-notice">
+            Throughout this crash-course intro to Javascript we are going to
+            liken the operation of javascript to our breakfast routines.
+          </h4>
           <p>
             Programming languages, like your fridge, have different ways of
             managing the flow of actions. Let's dive into how JavaScript handles
             these "kitchen decisions."
           </p>
-          <h4>First, What is "Control Flow"?</h4>
+        </div>
+      </section>
+
+      <section class="blog">
+        <h3 class="blog-header">First, What is "Control Flow"?</h3>
+        <div class="blog-content">
           <p>
             Control flow refers to the order in which individual statements,
             instructions, or function calls in an imperative program are
@@ -58,7 +56,7 @@
             the natural order in which the script is executed at face value.
           </p>
 
-          <h4>Managing Script Flow</h4>
+          <h4>Managing Flow</h4>
           <p>
             In JavaScript, we use control structures to influence the flow of
             events in our applications. While it does read much the same as a
@@ -67,9 +65,12 @@
             adapt the script's behavior to specific use cases. In essence,
             coding often boils down to a series of conditional statements, and
             complex applications consist of thousands or even millions of these
-            conditions. <br />This concept underlies what happens behind the
-            scenes in various domains, including games, scripting, data
-            analysis, and web development (backend).
+            conditions. <br />
+            <strong
+              >This concept underlies what happens behind the scenes in various
+              domains, including games, scripting, data analysis, and web
+              development (backend).</strong
+            >
           </p>
           <h4>Your Fridge's Control Flow</h4>
 
@@ -127,42 +128,12 @@
         </div>
         <div class="blog-image">
           <img
-            src="https://png.pngtree.com/png-vector/20220618/ourmid/pngtree-a-grey-fridge-png-image_5135763.png"
+            src=""
             alt=""
           />
         </div>
-</section>
-      <section class="blog">
-        <h3 class="blog-header">What is the DOM?</h3>
-        <div class="blog-content">
-          <p>
-            One of the key factors that make the DOM (Document Object Model)
-            invaluable to developers is its ability to interact with and
-            manipulate the current state of displayed content using JavaScript.
-            This interaction is made possible by the use of the script tag in
-            HTML files.
-          </p>
-
-          <p>
-            The significance of this capability lies in our ability to access
-            elements within the DOM, which are commonly referred to as "nodes."
-            Our interaction with the DOM opens the door to initiating dynamic
-            changes based on user interactivity. For instance, when a user
-            clicks a button, we can write a script that modifies a specific
-            node. This node can be any object within our HTML document,
-            including headings (<code>&lt;h&gt;</code> tags), paragraphs (<code
-              >&lt;p&gt;</code
-            >
-            tags), spans (<code>&lt;span&gt;</code> tags), and more. We can go
-            beyond simple text changes and also manipulate attributes, such as
-            altering colors or other properties. In essence, the DOM empowers us
-            with the tools to create dynamic and interactive web experiences.
-          </p>
-        </div>
-        <div class="blog-image">
-          <img src="" alt="" />
-        </div>
-</section>
+      </section>
+      <hr />
       <section class="blog">
         <h3 class="blog-header">Arrays and Objects</h3>
         <div class="blog-content">
@@ -233,7 +204,7 @@
         <div class="blog-image">
           <img src="../objectsArrays.png" alt="" />
         </div>
-      </section">
+      </section>
 
       <section class="blog">
         <h3 class="blog-header">Functions</h3>
@@ -272,8 +243,39 @@
         <div class="blog-image">
           <img src="" alt="" />
         </div>
-</section>
+      </section>
+      <hr />
       <section class="blog">
+        <h3 class="blog-header">What is the DOM?</h3>
+        <div class="blog-content">
+          <p>
+            The DOM, or Document Object Model, is our link to the web as
+            developers. This is the robot we communicate with and engage when
+            creating dynamic web pages. The DOM sits atop what is referred to as
+            the browser runtime, watching and listening for commands or
+            instructions on what to do. It's almost like a personal assistant—it
+            renders and displays what we want to do on the browser. Want to
+            click a button? Look at a shopping cart? The DOM handles it all.
+          </p>
+
+          <p>
+            We cannot actively engage with the DOM through plain HTML or CSS.
+            Although HTML and CSS are still received as instructions on what to
+            render, due to the nature of these files, they don't have the
+            capability to listen and stay active in the same way JavaScript can.
+            Remember that section on control-flow? Well, we send a series of
+            instructions to the DOM depending on the current state of what the
+            user asks to display (initiating one of those dormant conditional
+            statements). This ultimately signals the DOM on what to do with the
+            current page that has been rendered.
+          </p>
+        </div>
+        <div class="blog-image">
+          <img src="" alt="" />
+        </div>
+      </section>
+
+      <section class="blog" aria-label="hidden">
         <h3 class="blog-header">
           An Analogy to Describe JavaScript and Its Relationship to HTML and CSS
         </h3>
@@ -313,7 +315,7 @@
             JavaScript?
           </p>
           <button>The DOM and runtime</button>
-          <div id="fridge-analogy-javascript" aria-label="hidden">
+          <div id="fridge-analogy-javascript">
             <h3>One for the Road...</h3>
 
             <p>
@@ -362,7 +364,9 @@
         <div class="blog-image">
           <img src="your-image-source-here" alt="Image Description" />
         </div>
-</section>    </main>
+      </section>
+      <button>Haven't had enough of that fridge analogy?</button>
+    </main>
 
     <script src="" async defer></script>
   </body>
