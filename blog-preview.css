@@ -44,7 +44,6 @@
   max-height: 50%;
   box-sizing: border-box;
   background-image: linear-gradient(to bottom, transparent, rgb(102, 102, 102));
-
 }
 
 .content--header {
@@ -58,35 +57,37 @@
   margin-top: 4px;
 }
 
-
 /* BLOG PUBLISH CSS */
-section.blog {
+.blog {
+  font-family: 'Quicksand';
   color: black;
+  border: solid 2px white;
+  padding: 30px;
 }
-.blog-header {
-  font-size: 1.5rem;
 
+.blog-header {
+  font-weight: 600;
+  font-size: 1.6rem;
+  font-family: inherit;
 }
+
 .blog-content {
   text-align: start;
   color: inherit;
 }
-.blog-content p {
-  /* margin: 0.5rem; */
-}
+
 .blog-content h4 {
-  text-align: start;
+  font-weight: 600;
+  font-size: 1.2rem;
   margin-top: 3rem;
-  /* margin: 10rem auto; */
+  text-align: start;
 }
+
 .blog-image1 {
-  
 }
 .blog-image2 {
-
 }
 .blog-image3 {
-
 }
 
 #javascript-notice {
@@ -94,23 +95,7 @@ section.blog {
   margin: 0px;
 }
 
-.blog {
-
+header h1 {
+  font-family: 'Quicksand';
+  font-size: 5rem;
 }
-
-.blog-header {
-
-}
-
-.blog-content {
-
-}
-
-.blog-content p {
-
-}
-
-.blog-content h4 {
-
-}
-
