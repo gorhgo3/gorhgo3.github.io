@@ -183,6 +183,8 @@ section {
   color: black;
   border: solid 2px white;
   padding: 30px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .blog-header {
@@ -203,12 +205,19 @@ section {
   text-align: start;
 }
 
-.blog-image1 {
+.blog-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.2;
+  z-index: -1;
 }
-.blog-image2 {
+
+.blog-image img {
+  height: 300px;
+  width: auto;
 }
-.blog-image3 {
-}
+
 
 
 #javascript-notice {
