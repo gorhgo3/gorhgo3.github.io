@@ -28,49 +28,39 @@
       <div class="blog-content">
         <h4>What was the problem?</h4>
         <p>
-          One problem I encountered was with the building security system. It
-          failed to properly shut down at night, leaving a particular set of
-          doors on a campus open. This issue was recurring, happening only at
-          night, and the doors were fine during the day.
+          I had an issue with the capitalize string part of the sprint. This was
+          a little frustrating because I got all the written code correct- but
+          missed the slice and concatenation of the rest of the script.
         </p>
         <h4>What problem-solving techniques did you use?</h4>
         <p>
-          My approach to solving this problem was to apply problem-solving
-          techniques I had learned throughout my career as an electrician. One
-          technique that worked well for me was "halving the problem." I tried
-          to split the problem in half and figure out if there was any voltage
-          at the location where I was standing, or if the door wasn't getting
-          any DC voltage to energize the mag lock.
+          I was in a rush through this section and so I didn't approach it
+          methodically - using pseudocode and reading docs carefully. Instead I
+          formulated an idea that the method .charAt() was incorrectly used<br />As
+          I read I became more frustrated because I was distracted while reading
+          and kept thinking I'd missed something- <br />Ultimately I needed to
+          employ the log statements to diagnose and break my code into smaller
+          bits, and this was when I noticed that I was processing only the first
+          character of the word and nothing else.
         </p>
         <h4>How did you feel throughout the process?</h4>
         <p>
-          I felt quite confused during this process. Although the problem was
-          simple in nature, I didn't have access to the contacts needed to
-          diagnose it properly. The equipment was delicate and well-sealed due
-          to security concerns, making it challenging to troubleshoot. It took
-          me quite some time before I actually stepped back and analyzed the
-          full scope of the problem.
+          Because I was distracted throughout this, I ended up getting
+          impatient, and this affected my ability to read and process what was
+          going on within the script. I also sometimes feel like using log
+          statements can make me feel like I'm not understanding what I'm
+          writing (even though it's to fault find). It conflicts with my
+          learning style of diagnosis, and I feel like I'm cheating myself out
+          of a lesson.
         </p>
         <h4>What did you learn?</h4>
         <p>
           In hindsight, I realized that this was a tricky problem with a simple
           solution. The key lesson was that I was so engrossed in the technical
-          details that I failed to see the simplicity of the situation. What I
-          needed was a second pair of eyes to help me see the solution. This
-          experience taught me the importance of broadening my scope when
-          problem-solving and seeking assistance when needed.
+          details that I failed to see the simplicity of the situation.
         </p>
         <h4>How was the problem ultimately resolved?</h4>
-        <p>
-          Ultimately the issue was resolved after finding a failed backup relay
-          for after-hours building security. I had been so fixated on gaining
-          access to the door that it took some time before I stepped back and
-          analyzed the full scope of the problem. This analysis only occurred
-          once I received assistance from a colleague who helped me locate the
-          specific relays related to the issue with the particular door I was
-          working on. This was so I could initially figure out where in the
-          panel the relays for this particular door were located.
-        </p>
+        <p>String concatenation.</p>
       </div>
     </section>
 
@@ -79,42 +69,39 @@
       <div class="blog-content">
         <h4>What was the problem?</h4>
         <p>
-          Another particular problem that comes to mind is a time when we were
-          working in a pump room. Pump rooms are normally pretty hot, and as you
-          walk into a pump room, you generally don't miss the seriously noticed
-          heat of the room as a standout feature. However, this particular fault
-          was occurring because of a failed pump, and usually with power pumps,
-          we would look at the control panel and sensors related to those pumps
-          in the system management.
+          I was not getting the Green light for the superFizzBuzz - Because
+          there were a couple of things going on here I wasn't exactly sure why
+          my code wasn't running successfully. The problem was ultimately that I
+          was using a reducer function and didn't include the return statement
+          for the accumulator after each iteration; this meant that the values
+          that were being passed as the accumulator were not the expected list,
+          and instead was the initial value.
         </p>
         <h4>What problem-solving techniques did you use?</h4>
         <p>
-          In this particular case, as soon as we walked into the pump room and
-          instead of feeling heat, we smelled burning plastic, particularly
-          varnish. Varnish is associated with binding to the motor, and
-          immediately, this is a telltale sign of the fault that doesn't need to
-          be looked at in reference to sensors. This generally has something to
-          do with the hardware of the actual physical appliance or unit. Without
-          getting my testing equipment and panels, we were able to follow an
-          alternative measure of following the fault trail and it led us to a
-          burning or burned-out circulating pump in a hot water system.
+          In this particular case - my initial thought pattern was to follow the
+          steps I used to follow when I was an Electrician. <br />
+          Half the problem, half it again <br />I used log statements to figure
+          out exactly where in the pipeline I was having issues as my I didn't
+          initally understand where the issue was. <br />My first step was to
+          make sure that the fizzbuzz function that was imported was sending
+          through the correct information - this was attained from a log
+          statement being called upon each reducer iteration. <br />Then I found
+          the issue must have been locally within the handling of the reducer
+          because my next log statement was to measure what the accumulator
+          value was - and this was how I noticed it was not a full array like I
+          expected.
         </p>
         <h4>How did you feel throughout the process?</h4>
         <p>
-          Throughout this process, it taught me some valuable skills. I did feel
-          like it was a relatively underwhelming solution as I do enjoy
-          tinkering around and trying to find solutions to problems. In this
-          particular case, I learned that I need to stop being too fixated on
-          the technical side of a fault and sometimes look at the bigger
-          picture. I also realized that recognizing other aspects beyond my
-          technical abilities as an electrician were sometimes far more
-          necessary. Just being present in a situation gives you a strong
-          foundation for solving every problem, as long as you have a methodical
-          approach.
+          I was in my comfort zone thoughtout this process. I'd performed
+          diagnostics like this hundreds of times before in real life - I think
+          because it was so similar to my experiences previously it felt
+          familiar.
         </p>
         <h4>What did you learn?</h4>
         <p>
-          In this situation, I learned that sometimes, problem-solving involves
+          In this situation, my belief that sometimes problem-solving involves
           more than just technical expertise. It's about being present in the
           moment, recognizing telltale signs, and taking a methodical approach
           to troubleshoot. Sometimes, the solution can be elegantly simple, and
@@ -218,11 +205,6 @@
         </div>
       </section>
     </section>
-
-    <!-- 4. Reflect on a time you were reluctant to ask for help. Consider what made
-    you reluctant to do so. What might you try differently next time? Steps:
-    Write your blog post. Add a link to the index page. Share it with your
-    cohort via Discord.  -->
     <section class="blog">
       <h3 class="blog-header">
         Asking for Help and Learning from Past Experiences
@@ -246,11 +228,13 @@
           concepts comprehensively.
         </p>
         <p>
-          Looking back, I realize that I enjoyed the process of fault-finding,
-          and this inclination sometimes led me to prefer solving problems on my
-          own. However, I also understand that there's value in seeking help and
-          collaborating with others, as it can lead to more efficient and
-          effective solutions.
+          Looking forward, I realize the importance of balancing the learning
+          and seeking proactive help from others. While I enjoy the process of
+          fault-finding, this leads me to disappear down rabbit holes that can
+          often become deep pits. While there is alot to be said for self
+          directed learning, I also understand that there's value in seeking
+          help and collaborating with others, as it can lead to more efficient
+          and effective solutions.
         </p>
       </div>
     </section>
