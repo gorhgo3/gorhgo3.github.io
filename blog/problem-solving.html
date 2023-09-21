@@ -83,16 +83,14 @@
         <p>
           In this particular case - my initial thought pattern was to follow the
           steps I used to follow when I was an Electrician. <br />
-          Half the problem, half it again <br />I used log statements to figure
-          out exactly where in the pipeline I was having issues as my I didn't
-          initally understand where the issue was. <br />My first step was to
-          make sure that the fizzbuzz function that was imported was sending
-          through the correct information - this was attained from a log
-          statement being called upon each reducer iteration. <br />Then I found
-          the issue must have been locally within the handling of the reducer
-          because my next log statement was to measure what the accumulator
-          value was - and this was how I noticed it was not a full array like I
-          expected.
+          Half the problem, half it again <br />Log statements helped figure out
+          exactly where in the pipeline I was having issues.<br />My first step
+          was to make sure that the fizzbuzz function was sending through the
+          correct information - this was attained from a log statement being
+          called upon each reducer iteration. <br />This returned as expected
+          which displays the fault was local to the reducer. This was when I
+          noticed it was that upon each iteration I was still recieving the
+          initial value instead of the expected array.
         </p>
         <h4>How did you feel throughout the process?</h4>
         <p>
