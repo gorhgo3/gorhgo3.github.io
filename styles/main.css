@@ -5,6 +5,7 @@
 :root {
   --softGrey: rgb(247, 247, 247);
   --midGrey: #D8D9CF;
+  --darkGrey: rgb(160, 160, 160);
   --textdark: #2E3840;
   --textblack: rgb(26, 26, 26);
   --textwhite: rgb(249, 249, 249);
@@ -201,10 +202,18 @@ section {
 }
 
 .blog-content h4 {
+  margin-bottom: 0;
   font-weight: 600;
   font-size: 1.2rem;
   margin-top: 3rem;
   text-align: start;
+}
+
+.blog-content h6 {
+  margin: 0;
+  font-weight: 600; 
+  color: var(--darkGrey);
+  font-size: 1rem;
 }
 
 .blog-image {
