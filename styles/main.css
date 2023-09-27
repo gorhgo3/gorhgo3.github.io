@@ -51,7 +51,7 @@ section {
   display: inline-flex;
 }
 .di {
-  display: inline;
+  /* display: inline; */
 }
 
 

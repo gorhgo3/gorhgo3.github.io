@@ -26,12 +26,12 @@ function typeWriter(el) {
 }
 
 const title = document.querySelector('.main-text h1 span')
-// typeWriter(title)
+typeWriter(title)
 
 function profileDetails() {
   const murrayWelcome = document.getElementById('hidden-impression')
-  document.querySelector('.main-impression').style.justifyContent =
-    'space-evenly'
+  // document.querySelector('.main-impression').style.justifyContent =
+  //   'space-evenly'
   murrayWelcome.style.display = 'block'
 
   // we should simply add extra information in the html section here and so then the details will be shown upon click.

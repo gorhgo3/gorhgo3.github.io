@@ -17,8 +17,8 @@ main {
   background-size: auto;
   background-repeat: no-repeat;
   background-color: rgb(255, 255, 255);
-  /* transition-delay: 2s; */
-  /* transition-duration: 8s; */
+  transition-delay: 2s;
+  transition-duration: 8s;
 }
 
 .main-impression:hover {
@@ -79,6 +79,26 @@ main {
   grid-gap: 1rem 0.5rem;
 }
 
+.box {
+  display: flexbox;
+  /* flex-direction: column; */
+  padding: 30px;
+  height: 400px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.box p {
+  overflow: hidden;
+}
+
+.blog-header {
+  height: 50%;
+}
+.blog-content {
+  height: 50%;
+}
+
 #box1 {
   background-color: rgb(135, 255, 135);
 }
@@ -90,6 +110,11 @@ main {
 }
 #box4 {
   background-color: rgb(12, 50, 12);
+}
+
+.blog-details {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* update the box appearances */
