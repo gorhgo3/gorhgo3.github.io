@@ -51,7 +51,7 @@ section {
   display: inline-flex;
 }
 .di {
-  display: inline;
+  /* display: inline; */
 }
 
 
@@ -94,14 +94,14 @@ li {
 header,
 section {
   margin: 1rem auto;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   position: relative;
 }
 /* TEXT COLORS */
 
 .text-red {
   color: var(--redColor);
-  display: inline;
+  /* display: inline; */
 }
 
 .text-dark {

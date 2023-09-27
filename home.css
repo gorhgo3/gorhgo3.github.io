@@ -1,0 +1,120 @@
+main {
+  background-color: rgb(148, 148, 148);
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-impression {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-blend-mode: color;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1650259874422-115082125b13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  transition-delay: 2s;
+  transition-duration: 8s;
+}
+
+.main-impression:hover {
+  cursor: pointer;
+}
+
+#hidden-impression {
+  display: none;
+  max-width: 1000px;
+}
+
+.main-text {
+  display: inline-block;
+}
+
+.main-text h1 {
+  color: rgb(255, 238, 0);
+  font-size: 5rem;
+  margin-bottom: 5px;
+}
+
+.main-text span {
+  color: rgb(0, 0, 0);
+}
+
+.main-text #impressionText {
+  background-color: rgb(255, 234, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-align: end;
+  padding: 5px;
+}
+
+.main-text #impressionText p {
+  display: inline;
+  margin: 0px;
+}
+
+.main-navbar {
+  position: absolute;
+  text-align: end;
+  align-content: center;
+  height: 3rem;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.137);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.main-navbar .nav-box {
+  display: inline-block;
+}
+
+.blog-navigation {
+  display: grid;
+  /* Use auto-fit */
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  grid-gap: 1rem 0.5rem;
+}
+
+.box {
+  display: flexbox;
+  /* flex-direction: column; */
+  padding: 30px;
+  height: 400px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.box p {
+  overflow: hidden;
+}
+
+.blog-header {
+  height: 50%;
+}
+.blog-content {
+  height: 50%;
+}
+
+#box1 {
+  background-color: rgb(135, 255, 135);
+}
+#box2 {
+  background-color: rgb(59, 184, 59);
+}
+#box3 {
+  background-color: rgb(22, 85, 22);
+}
+#box4 {
+  background-color: rgb(12, 50, 12);
+}
+
+.blog-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* update the box appearances */
